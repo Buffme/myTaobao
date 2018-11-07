@@ -1,0 +1,40 @@
+#BBook{
+    background: #f5f5f5;
+}
+.main{
+    background: #fff;
+}
+
+.main .container{
+    display:flex;
+    font-size:14px;
+    font-family:"宋体";
+    line-height:30px;
+    flex-wrap: wrap;
+}
+.main .container dl{
+    flex:1;
+
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding:10px;
+    /* display: none; */
+}
+.main dl dt{
+    text-align: center;
+    margin-bottom: 6px;
+}
+.main dl dd{
+    border-bottom:1px dashed #ccc;
+}
+.main dl .add{
+    text-align: center;
+    border:none;
+    background:pink;
+    font-weight: 600;
+} 
+.main dl .add a{
+    color:#fff;
+    font-size:18px;
+}
+

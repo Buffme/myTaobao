@@ -1,0 +1,142 @@
+.header .topnav{
+    display: flex;
+    justify-content: space-between;
+}
+.header .topnav ul{
+    display:flex;
+}
+.header .topnav ul li{
+    display: flex;
+    padding: 0 4px;
+    line-height:35px;
+}
+.topnav ul li a{
+    display: block;
+    font-size: 12px;
+    color: #6C6C6C;
+    padding: 0 6px 0 3px;
+}
+.header .topnav ul li i{
+    line-height:35px;
+    font-size:12px;
+}
+.header-l li span{
+    font-size: 12px;
+    color: #6C6C6C; 
+}
+.topnav .header-l li:nth-child(2) a{
+    color:#f22e00;
+    margin-right:-9px;
+}
+.header-r .icon-gouwuche{
+    color:#f40;
+}
+.header ul li:hover a{
+    color:#f40;
+}
+.header ul li:hover .icon-shoucangjia{
+    color:#f40;
+}
+.search{
+    background:#fff;
+}
+.search .container{
+    display: flex;
+}
+.search .logo a{
+    display: block;
+    width: 190px;
+    height: 140px;
+    background: url(../images/logo.gif);
+    text-indent:-190px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.search .search-wrap{
+    margin: 43px 0 10px 68px;
+}
+.search .search-hd ul{
+    display: flex;
+    margin-left:17px;
+}
+.search-hd ul li{
+    font-size:12px;
+    color:#f40;
+    cursor:pointer;
+    width: 36px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 6px 6px 0 0;
+}
+.search-hd ul li:hover{
+    color:#fff;
+    font-weight: 700;
+    background:#ff5000;
+}
+.search .search-con{
+    position: relative;
+}
+.search .search-con input{
+    width: 554px;
+    height: 36px;
+    border:2px solid #ff5000;
+    border-radius: 20px 0 0 20px;
+}
+.search .search-con i{
+    font-size: 16px;
+    position: absolute;
+    top: 12px;
+    left: 14px;
+    color: #666;
+}
+.search .search-con button{
+    position: absolute;
+    left: 558px;
+    top: 0;
+    width: 74px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #FF4200;
+    cursor: pointer;
+    border-radius: 0 20px 20px 0;
+}
+.search .search-ft ul{
+    display: flex;
+}
+.search-ft ul li{
+    height: 18px;
+} 
+.search-ft ul li a{
+    font-size:12px;
+    color: #3C3C3C;
+    margin-right:4px;
+}
+.search-ft ul .select a{
+    color:#f40;
+}
+.search-ft ul li a:hover{
+    color:#f40;
+}
+.search .code{
+    margin:43px 0 0 185px;
+}
+.search .tdcode a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 74px;
+    height: 88px;
+    font-size:12px;
+    color: #ff5000;
+    border: 1px solid #eee;
+    background-color: #FFF;
+}
+.search .tdcode img{
+    width: 62px;
+    height: 62px;
+}
