@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>编程书籍_淘宝搜索</title>
+    <link rel="stylesheet" href="../images/iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/search_books.css">
+    <script src="../../../js/jquery.min.js"></script>
+    <script src="../js/search_books.js"></script>
+</head>
+
+<body>
+    <div class="taobao search_books">
+        <div class="header">
+            <div class="container">
+                <div class="topnav">
+                    <div class="header-l">
+                        <ul>
+                            <li>
+                                <span href="#">中国大陆</span>
+                                <i class="iconfont icon-xiala"></i>
+                            </li>
+                            <li class="J_login">
+                                <a href="login.html">亲，请登录</a>
+                                <span class="cancel">注销</span>
+                            </li>
+                            <li>
+                                <a href="#">免费注册</a>
+                            </li>
+                            <li>
+                                <a href="#">手机逛淘宝</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-r">
+                        <ul>
+                            <li>
+                                <a href="login.html">我的淘宝</a>
+                                <i class="iconfont icon-xiala"></i>
+                            </li>
+                            <li>
+                                <i class="iconfont icon-gouwuche"></i>
+                                <a class="cart" href="login.html">购物车</a>
+                                <i class="iconfont icon-xiala"></i>
+                            </li>
+                            <li>
+                                <i class="iconfont icon-shoucangjia1"></i>
+                                <a href="login.html">收藏夹</a>
+                                <i class="iconfont icon-xiala"></i>
+                            </li>
+                            <li>
+                                <a href="#">商品分类</a>
+                                <i class="iconfont"></i>
+                            </li>
+                            <li>
+                                <a href="#">卖家中心</a>
+                                <i class="iconfont icon-xiala"></i>
+                            </li>
+                            <li>
+                                <a href="#">联系客服</a>
+                                <i class="iconfont icon-xiala"></i>
+                            </li>
+                            <li>
+                                <i class="iconfont"></i>
+                                <a href="#">网站导航</a>
+                                <i class="iconfont icon-xiala"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="container">
+                <div class="main_topSearch clearfix">
+                    <h1 class="logo">
+                        <a href="index.html">淘宝网</a>
+                    </h1>
+                    <div class="search_inner">
+                        <form action="" method="get">
+                            <div class="search_innerbox">
+                                <div class="tab">
+                                    <ul class="triggers">
+                                        <li class="trigger selected">宝贝</li>
+                                        <li class="trigger">店铺</li>
+                                    </ul>
+                                    <i class="arrow icon-btn-arrow-2-h"></i>
+                                </div>
+                                <div class="inputs">
+                                    <input name="q" value="编程书籍" placeholder="请输入要搜索的词">
+                                </div>
+                                <div class="camera">
+                                    <span class="btn-text"></span>
+                                </div>
+                            </div>
+                            <button class="submit" type="submit">搜索</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="main-inner clearfix">
+                    <div class="main_left">
+                        <div class="top_content">
+                            <ul class="tabs">
+                                <li class="tab">
+                                    <a class="select" href="#">所有宝贝</a>
+                                </li>
+                                <li class="tab">
+                                    <a href="#">天猫</a>
+                                </li>
+                                <li class="tab">
+                                    <a href="#">二手</a>
+                                </li>
+                            </ul>
+                            <div class="category">
+                                <div class="cat_hd clearfix">
+                                    <a class="show-expand" href="#">
+                                        <div class="expand">
+                                            <span>显示筛选</span>
+                                            <span class="arrow"></span>
+                                        </div>
+                                        <div class="collapse">
+                                            <span>收起筛选</span>
+                                            <span class="arrow"></span>
+                                        </div>
+                                    </a>
+                                    <span class="cat-text">所有分类</span>
+                                    <i class="icon-right"></i>
+                                </div>
+                                <div class="cat_bd">
+                                    <div class="cat_bd_con">
+                                        <div class="head">
+                                            <h4 class="title" title="相关分类">相关分类：</h4>
+                                        </div>
+                                        <div class="body">
+                                            <div class="items">
+                                                <div class="items_inner">
+                                                    <a href="#" title="书籍/杂志/报纸">
+                                                        <span class="text">书籍/杂志/报纸</span>
+                                                    </a>
+                                                    <a href="#" title="少儿图书/育儿孕期读物">
+                                                        <span class="text">少儿图书/育儿孕期读物</span>
+                                                    </a>
+                                                    <a href="#" title="个性定制/设计服务/DIY">
+                                                        <span class="text">个性定制/设计服务/DIY</span>
+                                                    </a>
+                                                    <a href="#" title="五金/工具">
+                                                        <span class="text">五金/工具</span>
+                                                    </a>
+                                                    <a href="#" title="3C数码配件市场">
+                                                        <span class="text">3C数码配件市场</span>
+                                                    </a>
+                                                    <a href="#" title="教育培训">
+                                                        <span class="text">教育培训</span>
+                                                    </a>
+                                                    <a href="#" title="课程学习">
+                                                        <span class="text">课程学习</span>
+                                                    </a>
+                                                    <a href="#" title="汽车维修/应急工具">
+                                                        <span class="text">汽车维修/应急工具</span>
+                                                    </a>
+                                                    <a href="#" title="古董/邮币/字画/收藏">
+                                                        <span class="text">古董/邮币/字画/收藏</span>
+                                                    </a>
+                                                    <a href="#" title="在线影视/电子书">
+                                                        <span class="text">在线影视/电子书</span>
+                                                    </a>
+                                                    <a href="#" title="电子词典/电纸书/文化用品">
+                                                        <span class="text">电子词典/电纸书/文化用品</span>
+                                                    </a>
+                                                    <a href="#" title="电子元器件">
+                                                        <span class="text">电子元器件</span>
+                                                    </a>
+                                                    <a href="#" title="网络设备/路由器/网络相关">
+                                                        <span class="text">网络设备/路由器/网络相关</span>
+                                                    </a>
+                                                    <a href="#" title="汽车改装升级">
+                                                        <span class="text">汽车改装升级</span>
+                                                    </a>
+                                                    <a href="#" title="机械及行业设备">
+                                                        <span class="text">机械及行业设备</span>
+                                                    </a>
+                                                    <a href="#" title="电子/电工">
+                                                        <span class="text">电子/电工</span>
+                                                    </a>
+                                                    <a href="#" title="玩具/童车/益智/积木/模型">
+                                                        <span class="text">玩具/童车/益智/积木/模型</span>
+                                                    </a>
+                                                    <a href="#" title="超市卡/商场卡/优惠券">
+                                                        <span class="text">超市卡/商场卡/优惠券</span>
+                                                    </a>
+                                                    <a href="#" title="网店/网络服务/软件">
+                                                        <span class="text">网店/网络服务/软件</span>
+                                                    </a>
+                                                    <a href="#" title="生活电器">
+                                                        <span class="text">生活电器</span>
+                                                    </a>
+                                                    <a href="#" title="办公设备/耗材/相关服务">
+                                                        <span class="text">办公设备/耗材/相关服务</span>
+                                                    </a>
+                                                    <a href="#" title="音乐/影视/明星/音像">
+                                                        <span class="text">音乐/影视/明星/音像</span>
+                                                    </a>
+                                                    <a href="#" title="电玩/配件/游戏/攻略">
+                                                        <span class="text">电玩/配件/游戏/攻略</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="foot">
+                                            <span class="down">更多
+                                                <i class="icon icon-down"></i>
+                                            </span>
+                                            <span class="up">收起
+                                                <i class="icon icon-up"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cat-related">
+                                    <dl class="inner ">
+                                        <dt class="inner_title">您是不是想找：</dt>
+                                        <dd class="item ">
+                                            <a href="# ">打印书籍</a>
+                                            <a href="# ">书店书籍</a>
+                                            <a href="# ">儿童书籍</a>
+                                            <a href="# ">书籍童书</a>
+                                            <a href="# ">书籍中国</a>
+                                            <a href="# ">cnc数控编程书籍</a>
+                                            <a href="# ">java编程思想</a>
+                                            <a href="# ">ps书籍教材</a>
+                                            <a href="# ">书籍女</a>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <!-- <div class="cat_choice">
+                                    <div class="choice_hd">
+                                        <ul>
+                                            <li>
+                                                <a href="#">综合排序</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">销量</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">信用</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">价格</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="choice_bd">
+                                        <div class="choices">
+                                            <a href="#">
+                                                <span></span>
+                                                <span>包邮</span>
+                                            </a>
+                                            <a href="#">
+                                                <span></span>
+                                                <span>赠送退货运费险</span>
+                                            </a>
+                                            <a href="#">
+                                                <span></span>
+                                                <span>货到付款</span>
+                                            </a>
+                                            <a href="#">
+                                                <span></span>
+                                                <span>公益宝贝</span>
+                                            </a>
+                                            <a href="#">
+                                                <span></span>
+                                                <span>二手</span>
+                                            </a>
+                                            <a href="#">
+                                                <span></span>
+                                                <span>天猫</span>
+                                            </a>
+                                            <a href="#">
+                                                <span></span>
+                                                <span>正品保障</span>
+                                            </a>
+                                            <a href="#">
+                                                <span></span>
+                                                <span>7+天内退货</span>
+                                            </a>
+                                            <a href="#">
+                                                <span></span>
+                                                <span>海外商品</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="main_goods">
+                            <div class="goods_item">
+                                <input class="goodsBid" type="hidden" value="001">
+                                <div class="pic_box">
+                                    <a class="pic" href="details_book.html">
+                                        <img src="../images/i1.jpg" alt="">
+                                    </a>
+                                    <div class="similars">
+                                        <i class="bar"></i>
+                                        <a class="disabled" href="#">找同款</a>
+                                        <a href="#">找相似</a>
+                                    </div>
+                                </div>
+                                <div class="ctx-box">
+                                    <div class="row row-1 clearfix">
+                                        <div class="price">
+                                            <span>¥</span>
+                                            <strong>44.90</strong>
+                                        </div>
+                                        <div class="deal-cnt">179人付款</div>
+                                        <div class="ship icon-service-free"></div>
+                                    </div>
+                                    <div class="row row-2 clearfix">
+                                        <a href="#">现货 HTML5+CSS3+JavaScript从入门到精通JavaScript高级程序设计html5CSS3自学教程web前端开发书籍网页设计与制作</a>
+                                    </div>
+                                    <div class="row row-3 clearfix">
+                                        <div class="shop">
+                                            <a class="shopname" href="#">
+                                                <i class="iconfont icon-goutongye_santiaogang_tiaozhuanxuanzehaizi"></i>
+                                                <span>华心图书专营店</span>
+                                            </a>
+                                        </div>
+                                        <div class="location">上海</div>
+                                    </div>
+                                    <div class="row row-4 clearfix">
+                                        <ul class="icons">
+                                            <li class="icon">
+                                                <a href="details_book.html" title="掌柜热卖宝贝">
+                                                    <span class="icon_hot"></span>
+                                                </a>
+                                            </li>
+                                            <li class="icon">
+                                                <span class="icon_tmall" title="尚天猫，就购了"></span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="goods_item">
+
+                                <input class="goodsBid" type="hidden" value="002">
+                                <div class="pic_box">
+                                    <a class="pic" href="details_book.html">
+                                        <img src="../images/i2.jpg" alt="">
+                                    </a>
+                                    <div class="similars">
+                                        <i class="bar"></i>
+                                        <a class="disabled" href="#">找同款</a>
+                                        <a href="#">找相似</a>
+                                    </div>
+                                </div>
+                                <div class="ctx-box">
+                                    <div class="row row-1 clearfix">
+                                        <div class="price">
+                                            <span>¥</span>
+                                            <strong>24.70</strong>
+                                        </div>
+                                        <div class="deal-cnt">1930人付款</div>
+                                        <div class="ship icon-service-free"></div>
+                                    </div>
+                                    <div class="row row-2 clearfix">
+                                        <a href="details_book.html">零基础入门学习Python 小甲鱼计算机/网络 pyhton3.0从入门到精通python语言程序设计基础核心教程 python</a>
+                                    </div>
+                                    <div class="row row-3 clearfix">
+                                        <div class="shop">
+                                            <a class="shopname" href="#">
+                                                <i class="iconfont icon-goutongye_santiaogang_tiaozhuanxuanzehaizi"></i>
+                                                <span>墨涵图书专营店</span>
+                                            </a>
+                                        </div>
+                                        <div class="location">河南 郑州</div>
+                                    </div>
+                                    <div class="row row-4 clearfix">
+                                        <ul class="icons">
+                                            <li class="icon">
+                                                <span class="icon_tmall" title="尚天猫，就购了"></span>
+                                            </li>
+                                        </ul>
+                                        <a class="wangwang" href="#">旺旺在线</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="goods_item">
+                                <input class="goodsBid" type="hidden" value="003">
+                                <div class="pic_box">
+                                    <a class="pic" href="details_book.html">
+                                        <img src="../images/i3.jpg" alt="">
+                                    </a>
+                                    <div class="similars">
+                                        <i class="bar"></i>
+                                        <a class="disabled" href="#">找同款</a>
+                                        <a href="#">找相似</a>
+                                    </div>
+                                </div>
+                                <div class="ctx-box">
+                                    <div class="row row-1 clearfix">
+                                        <div class="price">
+                                            <span>¥</span>
+                                            <strong>39.80</strong>
+                                        </div>
+                                        <div class="deal-cnt">3984人付款</div>
+                                        <div class="ship icon-service-free"></div>
+                                    </div>
+                                    <div class="row row-2 clearfix">
+                                        <a href="details_book.html">【赠实战项目】Java从入门到精通(第4版) java语言程序设计编程思想教程教材javascriptweb计算机自学</a>
+                                    </div>
+                                    <div class="row row-3 clearfix">
+                                        <div class="shop">
+                                            <a class="shopname" href="#">
+                                                <i class="iconfont icon-goutongye_santiaogang_tiaozhuanxuanzehaizi"></i>
+                                                <span>墨涵图书专营店</span>
+                                            </a>
+                                        </div>
+                                        <div class="location">河南 郑州</div>
+                                    </div>
+                                    <div class="row row-4 clearfix">
+                                        <ul class="icons">
+                                            <li class="icon">
+                                                <span class="icon_tmall" title="尚天猫，就购了"></span>
+                                            </li>
+                                        </ul>
+                                        <a class="wangwang" href="#">旺旺在线</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="goods_item">
+                                <input class="goodsBid" type="hidden" value="004">
+                                <div class="pic_box">
+                                    <a class="pic" href="details_book.html">
+                                        <img src="../images/i4.jpg" alt="">
+                                    </a>
+                                    <div class="similars">
+                                        <i class="bar"></i>
+                                        <a class="disabled" href="#">找同款</a>
+                                        <a href="#">找相似</a>
+                                    </div>
+                                </div>
+                                <div class="ctx-box">
+                                    <div class="row row-1 clearfix">
+                                        <div class="price">
+                                            <span>¥</span>
+                                            <strong>59.70</strong>
+                                        </div>
+                                        <div class="deal-cnt">686人付款</div>
+                                        <div class="ship icon-service-free"></div>
+                                    </div>
+                                    <div class="row row-2 clearfix">
+                                        <a href="details_book.html">【当当网 正版书籍】Python编程从入门到实践python3核心编程基础教程网络爬虫入门</a>
+                                    </div>
+                                    <div class="row row-3 clearfix">
+                                        <div class="shop">
+                                            <a class="shopname" href="#">
+                                                <i class="iconfont icon-goutongye_santiaogang_tiaozhuanxuanzehaizi"></i>
+                                                <span>当当网官方旗舰店</span>
+                                            </a>
+                                        </div>
+                                        <div class="location">北京</div>
+                                    </div>
+                                    <div class="row row-4 clearfix">
+                                        <ul class="icons">
+                                            <li class="icon">
+                                                <span class="icon_tmall" title="尚天猫，就购了"></span>
+                                            </li>
+                                        </ul>
+                                        <a class="wangwang" href="#">旺旺在线</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main_page">
+                            <div class="inner clearfix">
+                                <ul class="items">
+                                    <li class="item direction prev prev-disabled">
+                                        <span class="num">
+                                            <span class="icon icon-btn-prev-2-disable"></span>
+                                            <span>上一页</span>
+                                        </span>
+                                    </li>
+                                    <li class="item active">
+                                        <span class="num">1</span>
+                                    </li>
+                                    <li class="item">
+                                        <a class="num" href="#">2</a>
+                                    </li>
+                                    <li class="item">
+                                        <a class="num" href="#">3</a>
+                                    </li>
+                                    <li class="item">
+                                        <a class="num" href="#">4</a>
+                                    </li>
+                                    <li class="item">
+                                        <a class="num" href="#">5</a>
+                                    </li>
+                                    <li class="item dot">...</li>
+                                    <li class="item direction next">
+                                        <a class="num icon-tag" href="#">
+                                            <span>下一页</span>
+                                            <span class="icon icon-btn-next-2"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="total">
+                                    共 100 页，
+                                </div>
+                                <div class="form">
+                                    <span class="text">到第</span>
+                                    <input type="number" value="2" min="1" max="100">
+                                    <span class="text">页</span>
+                                    <span class="page_submit">确定</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main_right ">
+                        <div class="right-wrap">
+                            <div class="top_title">
+                                <div class="ad"></div>
+                                <a href="#">掌柜热卖</a>
+                            </div>
+                            <ul class="hot_items">
+                                <li class="hot_item">
+                                    <div class="img">
+                                        <a href="#">
+                                            <img src="../images/slide1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a class="info" href="#">
+                                        <span class="tmall"></span>
+                                        <span class="yuan">¥</span>
+                                        <strong>43.80</strong>
+                                        <div class="sell" href="#">
+                                            <span>销量：</span>
+                                            <em>423</em>
+                                        </div>
+                                    </a>
+                                    <div class="feedback">
+                                        <a class="like" href="#">喜欢</a>
+                                        <a class="unlike" href="#">不喜欢</a>
+                                        <div class="bar">
+                                            <p>从零开始学微信小程序 程序应用零基础入门</p>
+                                        </div>
+
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="ft">
+                                <a href="#">更多热卖</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_bottom "></div>
+                <div class="main_bottomSearch "></div>
+            </div>
+        </div>
+        <div class="link ">
+            <div class="container ">
+                <ul>
+                    <li>
+                        <a href="# ">阿里巴巴集团</a>
+                    </li>
+                    <li>
+                        <a href="# ">阿里巴巴国际站</a>
+                    </li>
+                    <li>
+                        <a href="# ">阿里巴巴中国站</a>
+                    </li>
+                    <li>
+                        <a href="# ">全球速卖通</a>
+                    </li>
+                    <li>
+                        <a href="# ">淘宝网</a>
+                    </li>
+                    <li>
+                        <a href="# ">天猫</a>
+                    </li>
+                    <li>
+                        <a href="# ">聚划算</a>
+                    </li>
+                    <li>
+                        <a href="# ">一淘</a>
+                    </li>
+                    <li>
+                        <a href="# ">阿里妈妈</a>
+                    </li>
+                    <li>
+                        <a href="# ">飞猪</a>
+                    </li>
+                    <li>
+                        <a href="# ">虾米</a>
+                    </li>
+                    <li>
+                        <a href="# ">阿里云计算</a>
+                    </li>
+                    <li>
+                        <a href="# ">云OS</a>
+                    </li>
+                    <li>
+                        <a href="# ">万网</a>
+                    </li>
+                    <li>
+                        <a href="# ">支付宝</a>
+                    </li>
+                    <li>
+                        <a href="# ">来往</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer ">
+            <div class="container ">
+                <div class="footer-t ">
+                    <ul>
+                        <li>
+                            <a href="# ">关于淘宝</a>
+                        </li>
+                        <li>
+                            <a href="# ">合作伙伴</a>
+                        </li>
+                        <li>
+                            <a href="# ">营销中心</a>
+                        </li>
+                        <li>
+                            <a href="# ">廉正举报</a>
+                        </li>
+                        <li>
+                            <a href="# ">联系客服</a>
+                        </li>
+                        <li>
+                            <a href="# ">开放平台</a>
+                        </li>
+                        <li>
+                            <a href="# ">诚征英才</a>
+                        </li>
+                        <li>
+                            <a href="# ">联系我们</a>
+                        </li>
+                        <li>
+                            <a href="# ">网站地图</a>
+                        </li>
+                        <li>
+                            <a href="# ">法律声明及隐私权政策</a>
+                        </li>
+                    </ul>
+                    <span>© 2018 Taobao.com 版权所有</span>
+
+                </div>
+                <div class="footer-b ">
+                    <ul>
+                        <li>网络文化经营许可证：浙网文[2016]0132-032号 |</li>
+                        <li>增值电信业务经营许可证：浙B2-20080224-1 |</li>
+                        <li>信息网络传播视听节目许可证：1109364号</li>
+                    </ul>
+                    <a href="# ">
+                        <img src="../images/jb.gif " alt=" ">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

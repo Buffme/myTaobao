@@ -1,0 +1,472 @@
+.taobao{
+    .nav{
+        background: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+        .bnav{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            h2{
+                width: 190px;
+                font-size: 16px;
+                font-family: "宋体";
+                font-weight: 700;
+                line-height:30px;
+                color:#fff;
+                background: #ff5000;
+            }
+            ul{
+                display: flex;
+                li{
+                    position: relative;
+                    &::before{
+                        display: none;
+                        content:"\e674";
+                        font-family: iconfont;
+                        color: #ff5000;
+                        top: -10px;
+                        position: absolute;
+                        left: 50%;
+                        font-size: 18px;
+                        margin-left: -11px;
+                    }
+                    &:hover::before{
+                        display:block;
+                    }
+                    .icon-fengexian{ 
+                        font-size:14px;
+                        color:#fff; 
+                        font-weight: 700;
+                    }
+                    a{
+                        display: block;
+                        color:#fff;
+                        padding: 0 5px;
+                        font-weight: 700;
+                        font-size:14px;
+                        font-family: "宋体";
+                        line-height: 30px;
+                        
+                    }
+                }
+            }
+            .brand{
+                width: 219px;
+                display: flex;
+                justify-content: space-around;
+                li a{ 
+                    font-size:16px;  
+                }
+            }
+            .theme{
+                width: 354px;
+                display: flex;
+                justify-content: space-around;
+            }
+            .life{
+                width: 337px;
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    }
+    .main{
+        .container{
+            height:530px;
+            display:flex;
+            .main-l{
+                .main-l-t{
+                    display: flex;
+                    background: #fff;
+                    .main-l-t-service{
+                        .service-menu{
+                            display: flex;
+                            flex-direction: column;
+                            text-align: center;
+                            width: 188px;
+                            border: 1px solid #ff5000;
+                            border-top: none;
+                            padding-top: 5px;
+                            padding-bottom: 3px;
+                            font-family:arial;
+                            li{
+                                display: flex;
+                                font-size: 14px;
+                                font-weight: 400;
+                                color: #666;
+                                line-height: 32px;
+                                height: 32px;
+                                justify-content: center;
+                                position: relative;
+                                &:hover{
+                                    background:#ffe4dd;
+                                    color: #f40;
+
+                                }
+                                &:hover a{
+                                    color: #f40;
+                                }
+                                a{
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    color: #666;
+                                    &:hover{
+                                    text-decoration: underline;
+                                }
+                                }
+                                i{
+                                    font-size: 10px;
+                                    position: absolute;
+                                    right:10px;
+                                    top:2px;
+                                }
+                            }
+                        }
+                    }
+                    .main-l-t-banner{
+                        .banner-l{
+                            padding-top:10px;
+                            padding-left:10px;
+                            float: left;
+                            background: #f5f5f5;
+                            .banner-l-t{
+                                font-size: 0;
+                                height: 280px;
+                                width: 520px;
+                                overflow:hidden;
+                                position: relative;
+                                .bannerImg{/* 图片轮播1 */
+                                    position: absolute;
+                                    width:2700px;
+                                    left:0;
+                                    display:flex;
+                                }
+                                .banner-nav{/* 图片轮播3 */
+                                    border-radius: 10px;
+                                    position: absolute;
+                                    bottom: 15px;
+                                    height: 13px;
+                                    text-align: center;
+                                    font-size: 0;
+                                    left: 50%;
+                                    margin-left: -32px;
+                                    background: rgba(255,255,255,.3);   
+                                    li{
+                                        width:8px;
+                                        height:8px;
+                                        float:left;
+                                        display: block;
+                                        margin: 3px;
+                                        border-radius: 50%;
+                                        background: #fff;
+                                    }
+                                    li.active{
+                                        background: #f40;
+                                    }
+                                }
+                            }
+                            .banner-l-b {
+                                .tmall-t{
+                                    font-size: 14px;
+                                    height: 18px;
+                                    padding-top: 11px;
+                                    border-bottom: 3px solid #ff1648;
+                                    background-color: #f1f1f1;
+                                    position: relative;
+                                    font-size: 12px;
+                                    color: #666;
+                                    em{
+                                        line-height: 18px;
+                                    }
+                                    .tmall-num{
+                                        position: absolute;
+                                        right:0;
+                                    }
+                                    .tmall-bar{
+                                        width:100%;
+                                        height:3px;
+                                        position: absolute;
+                                        bottom:-3px;
+                                        left:0;
+                                        display:flex;
+                                        li{
+                                            width: 87px;
+                                            height: 3px;
+                                            background: #ff1648;
+                                            overflow: hidden;
+                                            &:first-child{
+                                                background: #000;
+                                            }
+                                        }
+                                    }
+                                }
+                                .tmall-b{
+                                    width: 520px; 
+                                    overflow: hidden; 
+                                    height: 201px;
+                                    background: #fff;
+                                    position: relative;
+                                    .tmall-b-con{
+                                        width:5000px;
+                                        overflow: hidden;
+                                        display:flex;
+                                        position: absolute;
+                                        left:0;
+                                        li{
+                                            width: 520px; 
+                                            display:flex;
+                                            justify-content: space-around;
+                                            &:nth-child(1),
+                                            &:nth-child(7){
+                                                margin:23px 0;
+                                            }
+                                            &:nth-child(2),
+                                            &:nth-child(3){
+                                                margin:10px 0;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .banner-column{
+                    float:right;
+                    padding-top:10px;
+                    padding-left:10px;
+                    background: #f5f5f5;
+                    .banner-column-c{
+                        height:32px;
+                        p{
+                            font-size: 12px;
+                            background: #f1f1f1;
+                            color: #a1a1a1;
+                            line-height: 24px;
+                            padding-top: 8px;
+                        } 
+                    }
+                }
+            }
+            .main-r{
+                float:right;
+                display:flex;
+                flex-direction: column;
+                margin-left:10px;
+                .main-r-t{
+                    .main-r-register{
+                        margin-top:10px;
+                        width:290px;
+                        height:145px;
+                        background:#fff;
+                        .register-t {
+                            position: relative;
+                            height: 91px;
+                            display:flex;
+                            flex-direction: column;
+                            text-align: center;
+                            align-items: center;
+                            >a{
+                                margin-top:6px;
+                                display:block;
+                                width:52px;
+                                height:52px;
+                                border-radius: 50%;
+                                background-image: url(../images/register.jpg);
+                            }
+                            p{
+                                line-height: 18px;
+                                font-size:12px;
+                                color: #3C3C3C
+                            }
+                            p{
+                                a{
+                                    display: inline-block;
+                                    border-radius: 9px;
+                                    background: #ffe4db;
+                                    padding: 0 10px 0 20px;
+                                    color:#f40;
+                                }
+                            }
+                        }
+                        .register-b {
+                            height: 40px;
+                            margin-top: 10px;
+                            padding-left: 15px;
+                            a{
+                                display: inline-block;
+                                width:75px;
+                                height:25px;
+                                background: #f40;
+                                border-radius:4px;
+                                color:#fff;
+                                text-align: center;
+                                font-size:14px;
+                                font-weight:600;
+                                line-height:25px;
+                                &:nth-child(1){
+                                    width:90px;
+                                }
+                            }
+                        }
+                    }
+                    .main-r-info{
+                        position: relative;
+                        a{
+                            display: inline-block;
+                            width:208px;
+                            height:26px;
+                            padding-left: 82px;
+                            color: #f40;
+                            line-height: 26px;
+                            background: #ffe4dd;
+                        }
+                        i{
+                            position: absolute;
+                            right: 52px;
+                            top: 0px;
+                            font-size: 26px;
+                            color:#f40;
+                        }
+                    }
+                    .main-r-notice{
+                        height: 98px;
+                        padding-top: 10px;
+                        width: 290px;
+                        background:#fff;
+                        ul li a{
+                            color: #3C3C3C;
+                        }
+                        .notice-t{
+                            ul {
+                                height: 24px;
+                                margin-top: 4px;
+                                padding: 0 8px;
+                                li{
+                                    float:left;
+                                    line-height: 20px;
+                                    width: 32px;
+                                    text-align: center;
+                                    margin: 0 11px;
+                                }
+                                .select{
+                                    font-weight: 700;
+                                    border-bottom: 2px solid #f40;
+                                }
+                            }
+                        }
+                        .notice-b{
+                            height:65px;
+                            ul{
+                                margin: 0 12px;
+                                height: 50px;
+                                overflow: hidden;
+                                padding-top: 9px;
+                                padding-bottom: 6px;
+                                li{
+                                    display:flex;
+                                    flex-wrap: wrap;
+                                    line-height: 25px;
+                                    a{
+                                        width: 130px;
+                                        height:25px;
+                                        overflow: hidden;
+                                    }
+                                    .attention{
+                                        color:#f40;
+                                    }
+                                }
+                                .select a:first-child{
+                                    width:200px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .main-r-b{
+                    width: 290px;
+                    font-size:12px;
+                    ul{
+                        display:flex;
+                        flex-wrap: wrap;
+                        background:#fff;
+                        border-top: 1px solid #f4f4f4;
+                        border-right: 1px solid #f4f4f4;
+                        /* width: 294px; */
+                        li{
+                            width: 70px;
+                            height: 75px;
+                            border: 1px solid #f4f4f4;
+                            border-right-color: transparent;
+                            border-top-color: transparent;
+                            a{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                color: #333;
+                            }
+                            i{
+                                font-size:24px;
+                                margin-top: 11px;
+                            }
+                            &:nth-child(1) i,
+                            &:nth-child(8) i{
+                                color:#9c7dff;
+                            }
+                            &:nth-child(2) i,
+                            &:nth-child(7) i{
+                                color:#f0b527;
+                            }
+                            &:nth-child(3) i{
+                                color:#27dccf;
+                            }
+                            &:nth-child(4) i{
+                                color:#b3ce03;
+                            }
+                            &:nth-child(5) i,
+                            &:nth-child(11) i{
+                                color:#d29285;
+                            }
+                            &:nth-child(6) i,
+                            &:nth-child(9) i{
+                                color:#ff29cc;
+                            }
+                            &:nth-child(10) i{
+                                color:#ff1269;
+                            }
+                            &:nth-child(12) i{
+                                color:#9d90e0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// 图片轮播2：左右箭头的样式
+.arrow a{
+    position: absolute;
+    display: none;
+    padding-top:8px;
+    height: 22px;
+    width: 20px;
+    top: 50%;
+    background-color: rgba(0,0,0,.3);
+    i{
+        font-size: 20px;
+        align-self: center;
+        color:#fff;
+    }
+}
+.arrow {
+    .toLeft a{
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        left:0;
+    }
+    .toRight a{
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        right:0;
+    }
+}

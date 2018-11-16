@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>账户注册 | 淘宝网</title>
+    <link rel="stylesheet" href="../images/iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <script src="../../../js/jquery.min.js"></script>
+    <script src="../js/register.js"></script>
+</head>
+
+<body>
+    <div class="taobao register">
+        <div class="header">
+            <div class="container">
+                <div class="topnav">
+                    <div class="header-l">
+                        <ul>
+                            <li>
+                                <span href="#">中国大陆</span>
+                                <i class="iconfont icon-xiala"></i>
+                            </li>
+                            <li>
+                                <a href="login.html">亲，请登录</a>
+                            </li>
+                            <li>
+                                <a href="#">免费注册</a>
+                            </li>
+                            <li>
+                                <a href="#">手机逛淘宝</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-r">
+                        <ul>
+                            <li>
+                                <a href="login.html">我的淘宝</a>
+                                <i class="iconfont icon-xiala"></i>
+                            </li>
+                            <li>
+                                <i class="iconfont icon-gouwuche"></i>
+                                <a href="login.html">购物车</a>
+                                <i class="iconfont icon-xiala"></i>
+                            </li>
+                            <li>
+                                <i class="iconfont icon-shoucangjia1"></i>
+                                <a href="login.html">收藏夹</a>
+                                <i class="iconfont icon-xiala"></i>
+                            </li>
+                            <li>
+                                <a href="#">商品分类</a>
+                                <i class="iconfont"></i>
+                            </li>
+                            <li>
+                                <a href="#">卖家中心</a>
+                                <i class="iconfont icon-xiala"></i>
+                            </li>
+                            <li>
+                                <a href="#">联系客服</a>
+                                <i class="iconfont icon-xiala"></i>
+                            </li>
+                            <li>
+                                <i class="iconfont"></i>
+                                <a href="#">网站导航</a>
+                                <i class="iconfont icon-xiala"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="container">
+                <div class="header">
+                    <h1 class="logo">
+                        <a href="index.html">淘宝网</a>
+                    </h1>
+                    <h2 class="pageName">用户注册</h2>
+                </div>
+                <div class="steps">
+                    <ol>
+                        <li class="active">
+                            <i>1</i>
+                            <span class="tsl">设置用户名</span>
+                        </li>
+                        <!-- <li>
+                            <i>2</i>
+                            <span class="tsl">填写账号信息</span>
+                        </li>
+                        <li>
+                            <i>3</i>
+                            <span class="tsl">设置支付方式</span>
+                        </li> -->
+                        <li>
+                            <i class="iconfont icon-gou"></i>
+                            <span class="tsl">注册成功</span>
+                        </li>
+                    </ol>
+                    <div class="lang-switcher">
+                        <a href="#" class="current">中文</a>
+                        |
+                        <a href="#">English</a>
+                    </div>
+                </div>
+                <div class="content">
+                    <!-- <form action="get"> -->
+                    <ul>
+                        <li class="active">
+                            <div class="field account-field">
+                                <label for="uname">账户名</label>
+                                <input id="uname" type="text" name="user" />
+                                <span id="info_user" class="info info_user">请输入用户名，2~12位，由中文、字母、数字和下划线组成</span>
+                                <span id="error_user" class="error error_user">输入不合法，请重新输入!</span>
+                                <span id="succ_user" class="succ succ_user">可用</span>
+                            </div>
+                            <div class="field pwd-field">
+                                <label for="pwd">密码</label>
+                                <input id="pwd" type="password" name="pass" />
+                                <span id="info_pass" class="info info_pass">
+                                    <p>安全级别：
+                                        <strong id="s1" class="s s1">■</strong>
+                                        <strong id="s2" class="s s2">■</strong>
+                                        <strong id="s3" class="s s3">■</strong>
+                                    </p>
+                                    <p>
+                                        <strong id="q1" style="font-weight: normal;">○</strong> 6-20个字符</p>
+                                    <p>
+                                        <strong id="q2" style="font-weight: normal;">○</strong> 只能包含大小写字母、数字和非空格字符</p>
+                                    <p>
+                                        <strong id="q3" style="font-weight: normal;">○</strong> 大、小写字母、数字、非空字符，2种以上</p>
+                                </span>
+                                <span id="error_pass" class="error error_pass">输入不合法，请重新输入!</span>
+                                <span id="succ_pass" class="succ succ_pass">可用</span>
+                            </div>
+                            <div class="field account-field">
+                                <label for="repwd">密码确认</label>
+                                <input type="password" name="repass" id="repwd" />
+                                <span id="info_repass" class="info info_repass">请再一次输入密码！</span>
+                                <span id="error_repass" class="error error_repass">密码不一致，请重新输入!</span>
+                                <span id="succ_repass" class="succ succ_repass">可用</span>
+                            </div>
+                            <div class="field submit-field">
+                                <button type="submit">提&emsp;交</button>
+                            </div>
+                            <a class="switch" href="#">切换成企业账户注册</a>
+                        </li>
+                        <li>
+                            <div class="sucess-field">
+                                <h6>
+                                    <i class="iconfont icon-chenggong"></i>
+                                    <span>恭喜注册成功！你的账户信息如下：</span>
+                                </h6>
+                                <p class="account">账户名：</p>
+                                <p>
+                                    <span class="time">3</span>s跳转到登录页</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- </form> -->
+                </div>
+                <div class="agreement">
+                    <div class="agreement-content">
+                        <a target="_top" href="http://www.taobao.com/" class="agreement-close">
+                            <i class="iconfont icon-guanbi"></i>
+                        </a>
+                        <h3>注册协议</h3>
+                        <div class="agreement-body">
+                            <p>
+                                <strong>【审慎阅读】</strong>您在申请注册流程中点击同意前，应当认真阅读以下协议。
+                                <strong style="text-decoration: underline">请您务必审慎阅读、充分理解协议中相关条款内容，其中包括：</strong>
+                            </p>
+                            <p>1、
+                                <strong style="text-decoration: underline">与您约定免除或限制责任的条款；</strong>
+                            </p>
+                            <p>2、
+                                <strong style="text-decoration: underline">与您约定法律适用和管辖的条款；</strong>
+                            </p>
+                            <p>3、
+                                <strong style="text-decoration: underline">其他以粗体下划线标识的重要条款。</strong>
+                            </p>
+                            <p>如您对协议有任何疑问，可向平台客服咨询。</p>
+                            <p>
+                                <strong>【特别提示】</strong>当您按照注册页面提示填写信息、阅读并同意协议且完成全部注册程序后，即表示您已充分阅读、理解并接受协议的全部内容。如您因平台服务与淘宝发生争议的，适用《淘宝平台服务协议》处理。如您在使用平台服务过程中与其他用户发生争议的，依您与其他用户达成的协议处理。</p>
+                            <p>
+                                <strong style="text-decoration: underline">阅读协议的过程中，如果您不同意相关协议或其中任何条款约定，您应立即停止注册程序。</strong>
+                            </p>
+
+
+                            <p>
+                                <a href="#">《淘宝平台服务协议》</a>
+                            </p>
+                            <p>
+                                <a href="#">《法律声明及隐私权政策》</a>
+                            </p>
+                            <p>
+                                <a href="#">《支付宝服务协议》</a>
+                            </p>
+
+                            <p style="text-align: center">
+                                <button class="agreement-btn" type="button">同意协议</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="link">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#">阿里巴巴集团</a>
+                    </li>
+                    <li>
+                        <a href="#">阿里巴巴国际站</a>
+                    </li>
+                    <li>
+                        <a href="#">阿里巴巴中国站</a>
+                    </li>
+                    <li>
+                        <a href="#">全球速卖通</a>
+                    </li>
+                    <li>
+                        <a href="#">淘宝网</a>
+                    </li>
+                    <li>
+                        <a href="#">天猫</a>
+                    </li>
+                    <li>
+                        <a href="#">聚划算</a>
+                    </li>
+                    <li>
+                        <a href="#">一淘</a>
+                    </li>
+                    <li>
+                        <a href="#">阿里妈妈</a>
+                    </li>
+                    <li>
+                        <a href="#">飞猪</a>
+                    </li>
+                    <li>
+                        <a href="#">虾米</a>
+                    </li>
+                    <li>
+                        <a href="#">阿里云计算</a>
+                    </li>
+                    <li>
+                        <a href="#">云OS</a>
+                    </li>
+                    <li>
+                        <a href="#">万网</a>
+                    </li>
+                    <li>
+                        <a href="#">支付宝</a>
+                    </li>
+                    <li>
+                        <a href="#">来往</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer-t">
+                    <ul>
+                        <li>
+                            <a href="#">关于淘宝</a>
+                        </li>
+                        <li>
+                            <a href="#">合作伙伴</a>
+                        </li>
+                        <li>
+                            <a href="#">营销中心</a>
+                        </li>
+                        <li>
+                            <a href="#">廉正举报</a>
+                        </li>
+                        <li>
+                            <a href="#">联系客服</a>
+                        </li>
+                        <li>
+                            <a href="#">开放平台</a>
+                        </li>
+                        <li>
+                            <a href="#">诚征英才</a>
+                        </li>
+                        <li>
+                            <a href="#">联系我们</a>
+                        </li>
+                        <li>
+                            <a href="#">网站地图</a>
+                        </li>
+                        <li>
+                            <a href="#">法律声明及隐私权政策</a>
+                        </li>
+                    </ul>
+                    <span>© 2018 Taobao.com 版权所有</span>
+
+                </div>
+                <div class="footer-b">
+                    <ul>
+                        <li>网络文化经营许可证：浙网文[2016]0132-032号 |</li>
+                        <li>增值电信业务经营许可证：浙B2-20080224-1 |</li>
+                        <li>信息网络传播视听节目许可证：1109364号</li>
+                    </ul>
+                    <a href="#">
+                        <img src="../images/jb.gif" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<!-- <script>
+    $(".agreement-btn").click(function () {
+        $(".agreement").css("display", "none");
+    })
+</script> -->

@@ -6,63 +6,66 @@
     <title>淘宝网 - 淘！我喜欢</title>
     <link rel="stylesheet" href="images/iconfont/iconfont.css">
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/index.css">
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../myTaobao/js/index.js"></script>
 </head>
 
 <body>
-    <div id="taobao">
+    <div class="taobao">
         <div class="header">
             <div class="container">
                 <div class="topnav">
                     <div class="header-l">
                         <ul>
                             <li>
-                                <span href="">中国大陆</span>
+                                <span href="#">中国大陆</span>
                                 <i class="iconfont icon-xiala"></i>
                             </li>
-                            <li>
-                                <a href="">亲，请登录</a>
+                            <li class="J_login">
+                                <a href="../myTaobao/html/login.html">亲，请登录</a>
+                                <span class="cancel">注销</span>
                             </li>
                             <li>
-                                <a href="">免费注册</a>
+                                <a href="../myTaobao/html/register.html">免费注册</a>
                             </li>
                             <li>
-                                <a href="">手机逛淘宝</a>
+                                <a href="#">手机逛淘宝</a>
                             </li>
                         </ul>
                     </div>
                     <div class="header-r">
                         <ul>
                             <li>
-                                <a href="">我的淘宝</a>
+                                <a href="../myTaobao/html/login.html">我的淘宝</a>
                                 <i class="iconfont icon-xiala"></i>
                             </li>
                             <li>
                                 <i class="iconfont icon-gouwuche"></i>
-                                <a href="">购物车</a>
+                                <a class="cart" href="../myTaobao/html/login.html">购物车</a>
                                 <i class="iconfont icon-xiala"></i>
                             </li>
                             <li>
-                                <i class="iconfont icon-shoucangjia"></i>
-                                <a href="">收藏夹</a>
+                                <i class="iconfont icon-shoucangjia1"></i>
+                                <a href="../myTaobao/html/login.html">收藏夹</a>
                                 <i class="iconfont icon-xiala"></i>
                             </li>
                             <li>
-                                <a href="">商品分类</a>
+                                <a href="#">商品分类</a>
                                 <i class="iconfont"></i>
                             </li>
                             <li>
-                                <a href="">卖家中心</a>
+                                <a href="#">卖家中心</a>
                                 <i class="iconfont icon-xiala"></i>
                             </li>
                             <li>
-                                <a href="">联系客服</a>
+                                <a href="#">联系客服</a>
                                 <i class="iconfont icon-xiala"></i>
                             </li>
                             <li>
                                 <i class="iconfont"></i>
-                                <a href="">网站导航</a>
+                                <a href="#">网站导航</a>
                                 <i class="iconfont icon-xiala"></i>
                             </li>
                         </ul>
@@ -105,7 +108,7 @@
                                 <a href="">时尚女鞋</a>
                             </li>
                             <li>
-                                <a href="../shopping/html/BBook.html">书籍</a>
+                                <a href="../myTaobao/html/search_books.html">编程书籍</a>
                             </li>
                             <li>
                                 <a href="">半身裙</a>
@@ -305,8 +308,8 @@
                         </div>
                         <div class="main-l-t-banner">
                             <div class="banner-l">
-                                <div id="banner" class="banner-l-t">
-                                    <ul id="bannerImg">
+                                <div class="banner-l-t">
+                                    <ul class="bannerImg">
                                         <li>
                                             <img src="images/b1.jpg" alt="">
                                         </li>
@@ -323,12 +326,20 @@
                                             <img src="images/b1.jpg" alt="">
                                         </li>
                                     </ul>
-                                    <div id="arr" class="arrow">
-                                        <div class="toLeft"></div>
-                                        <div class="toRight"></div>
+                                    <div class="arrow">
+                                        <div class="toLeft">
+                                            <a href="#">
+                                                <i class="iconfont icon-zuo"></i>
+                                            </a>
+                                        </div>
+                                        <div class="toRight">
+                                            <a href="#">
+                                                <i class="iconfont icon-you"></i>
+                                            </a>
+                                        </div>
                                     </div>
                                     <div class="banner-nav">
-                                        <ul id="bannerNav">
+                                        <ul class="bannerNav">
                                             <li class="active"></li>
                                             <li></li>
                                             <li></li>
@@ -337,11 +348,21 @@
                                     </div>
                                 </div>
                                 <div class="banner-l-b">
-                                    <div class="tmall-hd">
+                                    <!-- 天猫轮播动画 -->
+                                    <div class="tmall-t">
                                         <em>理想生活上天猫</em>
+                                        <span class="tmall-num"></span>
+                                        <ul class="tmall-bar">
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
                                     </div>
-                                    <div class="tmall-bd">
-                                        <ul class="tmall-bd-con">
+                                    <div class="tmall-b">
+                                        <ul class="tmall-b-con">
                                             <li>
                                                 <a href="">
                                                     <img src="images/bb1.jpg" alt="">
@@ -364,12 +385,6 @@
                                                 </a>
                                                 <a href="">
                                                     <img src="images/bb6.jpg" alt="">
-                                                </a>
-                                                <a href="">
-                                                    <img src="images/bb7.jpg" alt="">
-                                                </a>
-                                                <a href="">
-                                                    <img src="images/bb8.jpg" alt="">
                                                 </a>
                                             </li>
                                             <li>
@@ -406,10 +421,22 @@
                                                 </a>
                                             </li>
                                         </ul>
+                                        <div id="arr" class="arrow">
+                                            <div class="toLeft">
+                                                <a href="#">
+                                                    <i class="iconfont icon-zuo"></i>
+                                                </a>
+                                            </div>
+                                            <div class="toRight">
+                                                <a href="#">
+                                                    <i class="iconfont icon-you"></i>
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="banner-t-r">
+                            <div class="banner-column">
                                 <div class="banner-column-t">
                                     <a href="">
                                         <img src="images/banner2.jpg" alt="">
@@ -428,90 +455,266 @@
                     </div>
                 </div>
                 <div class="main-r">
-                    <div class="main-r-register">
-                        <div class="register-t">
-                            <a href="">
-
-                            </a>
-                            <p>Hi!你好</p>
-                            <p>
-                                <a href="">领淘金币抵钱</a>
-                                <a href="">会员俱乐部</a>
-                            </p>
+                    <div class="main-r-t">
+                        <div class="main-r-register">
+                            <div class="register-t">
+                                <a href="">
+                                </a>
+                                <p>Hi!你好</p>
+                                <p>
+                                    <a href="">领淘金币抵钱</a>
+                                    <a href="">会员俱乐部</a>
+                                </p>
+                            </div>
+                            <div class="register-b">
+                                <a href="../myTaobao/html/login.html">登录</a>
+                                <a href="../myTaobao/html/register.html">注册</a>
+                                <a href="">开店</a>
+                            </div>
                         </div>
-                        <div class="register-b">
-                            <a href="">登录</a>
-                            <a href="">注册</a>
-                            <a href="">开店</a>
+                        <div class="main-r-info">
+                            <a href="">网上有害信息举报专区</a>
+                            <i class="iconfont icon-com-youjiaobiao"></i>
+                        </div>
+                        <div class="main-r-notice">
+                            <div class="notice-t">
+                                <ul>
+                                    <li class="select">
+                                        <a href="">公告</a>
+                                    </li>
+                                    <li>
+                                        <a href="">规则</a>
+                                    </li>
+                                    <li>
+                                        <a href="">论坛</a>
+                                    </li>
+                                    <li>
+                                        <a href="">安全</a>
+                                    </li>
+                                    <li>
+                                        <a href="">公益</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="notice-b">
+                                <ul>
+                                    <li class="select">
+                                        <a class="attention" href="">马云：成为进口大国是全世界的机会</a>
+                                        <a href="">2000亿美金大进口计划</a>
+                                        <a href="">阿里和冯氏零售合作</a>
+                                    </li>
+                                    <li>
+                                        <a href="">新增《淘宝网抽检标准（商用厨房电器）》公示通知</a>
+                                        <a href="">《淘宝禁售商品管理规范》关于证券咨询类商品规则解读变更公示通知</a>
+                                        <a href="">新增《淘宝网大家电行业管理规范》公示通知</a>
+                                        <a href="">《淘宝直播平台管理规则》变更公示通知</a>
+                                    </li>
+                                    <li>
+                                        <a class="attention" href="">淘宝嘉年华外围招商</a>
+                                        <a href="">中差评功能升级</a>
+                                        <a href="">陌生人拼团上线</a>
+                                        <a href="">运营神器年中大促</a>
+                                    </li>
+                                    <li>
+                                        <a href="">魔豆妈妈公益项目</a>
+                                        <a href="">让母爱永不打烊！</a>
+                                        <a href="">卖家注意：风险通报！</a>
+                                        <a href="">售假获刑又起诉！</a>
+                                    </li>
+                                    <li>
+                                        <a class="attention" href="">卖家如何设置公益宝贝</a>
+                                        <a href="">公益项目如何入驻公益宝贝</a>
+                                        <a class="attention" href="">四重曝光！请你出道~</a>
+                                        <a href="">公益机构开店全攻略</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                    <div class="main-r-info"></div>
-                    <div class="main-r-apps"></div>
+                    <div class="main-r-b">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-huafei"></i>
+                                    <p>充话费</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-feizhu"></i>
+                                    <p>旅行</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-chexian"></i>
+                                    <p>车险</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-youxi-copy"></i>
+                                    <p>游戏</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-shenghuocaipiao"></i>
+                                    <p>彩票</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-dianyingzhiye-dianyingbangdianjitai"></i>
+                                    <p>电影</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-icon-"></i>
+                                    <p>酒店</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-licai"></i>
+                                    <p>理财</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-fuwu"></i>
+                                    <p>找服务</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-tudoushipin"></i>
+                                    <p>演出</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-shuidianbiaochaobiao"></i>
+                                    <p>水电煤</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="iconfont icon-huochepiao"></i>
+                                    <p>火车票</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="link"></div>
-        <div class="footer"></div>
+        <div class="link">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#">阿里巴巴集团</a>
+                    </li>
+                    <li>
+                        <a href="#">阿里巴巴国际站</a>
+                    </li>
+                    <li>
+                        <a href="#">阿里巴巴中国站</a>
+                    </li>
+                    <li>
+                        <a href="#">全球速卖通</a>
+                    </li>
+                    <li>
+                        <a href="#">淘宝网</a>
+                    </li>
+                    <li>
+                        <a href="#">天猫</a>
+                    </li>
+                    <li>
+                        <a href="#">聚划算</a>
+                    </li>
+                    <li>
+                        <a href="#">一淘</a>
+                    </li>
+                    <li>
+                        <a href="#">阿里妈妈</a>
+                    </li>
+                    <li>
+                        <a href="#">飞猪</a>
+                    </li>
+                    <li>
+                        <a href="#">虾米</a>
+                    </li>
+                    <li>
+                        <a href="#">阿里云计算</a>
+                    </li>
+                    <li>
+                        <a href="#">云OS</a>
+                    </li>
+                    <li>
+                        <a href="#">万网</a>
+                    </li>
+                    <li>
+                        <a href="#">支付宝</a>
+                    </li>
+                    <li>
+                        <a href="#">来往</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer-t">
+                    <ul>
+                        <li>
+                            <a href="#">关于淘宝</a>
+                        </li>
+                        <li>
+                            <a href="#">合作伙伴</a>
+                        </li>
+                        <li>
+                            <a href="#">营销中心</a>
+                        </li>
+                        <li>
+                            <a href="#">廉正举报</a>
+                        </li>
+                        <li>
+                            <a href="#">联系客服</a>
+                        </li>
+                        <li>
+                            <a href="#">开放平台</a>
+                        </li>
+                        <li>
+                            <a href="#">诚征英才</a>
+                        </li>
+                        <li>
+                            <a href="#">联系我们</a>
+                        </li>
+                        <li>
+                            <a href="#">网站地图</a>
+                        </li>
+                        <li>
+                            <a href="#">法律声明及隐私权政策</a>
+                        </li>
+                    </ul>
+                    <span>© 2018 Taobao.com 版权所有</span>
+
+                </div>
+                <div class="footer-b">
+                    <ul>
+                        <li>网络文化经营许可证：浙网文[2016]0132-032号 |</li>
+                        <li>增值电信业务经营许可证：浙B2-20080224-1 |</li>
+                        <li>信息网络传播视听节目许可证：1109364号</li>
+                    </ul>
+                    <a href="#">
+                        <img src="images/jb.gif" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
 </html>
-<script src="../js/animate10.0.js"></script>
-<script src="../js/public.js"></script>
-<script src="../js/jquery.min.js"></script>
-<script>
-    //图片轮播
-    var banner = $("#banner");
-    var bannerImg = $("#bannerImg");
-    var imgLi = $("#bannerImg li");
-    var arr = $("#arr");
-    var toLeft = $(".toLeft");
-    var toRight = $(".toRight");
-    var bannerNav = $("#bannerNav");
-    var bnLi = $("#bannerNav li");
-    var index = 0;
-    var bnTimer = null;
-    bnTimer = setInterval(autoPlay, 1000);
-    function autoPlay() {
-        if (index == 4) {
-            bannerImg.css({ left: 0 });
-            index = 1;
-        } else {
-            index++;
-        }
-        bannerImg.animate({ left: -index * 520 });
-        bnLi.eq(index == bnLi.size() ? 0 : index).addClass("active").siblings().removeClass("active");
-
-    }
-    banner.mouseenter(function () {
-        clearInterval(bnTimer);
-        $(this).find(arr).animate({ opacity: 1 });
-    });
-    banner.mouseleave(function () {
-        bnTimer = setInterval(autoPlay, 1000);
-        $(this).find(arr).animate({ opacity: 0 });
-    });
-    toLeft.click(function () {
-        if (index == 0) {
-            bannerImg.css({ left: -520 * 4 });
-            index = 3;
-        } else {
-            index--;
-        }
-        bannerImg.stop().animate({ left: -520 * index });
-        bnLi.eq(index).addClass("active").siblings().removeClass("active");
-
-    });
-    toRight.click(function () {
-        if (index == 4) {
-            bannerImg.css({ left: 0 });
-            index = 1;
-        } else {
-            index++;
-        }
-        bannerImg.stop().animate({ left: -520 * index });
-        bnLi.eq(index == bnLi.size() ? 0 : index).addClass("active").siblings().removeClass("active");
-
-    });
-
-</script>

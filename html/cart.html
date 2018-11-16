@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>淘宝网 - 我的购物车</title>
+    <link rel="stylesheet" href="../images/iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/base1.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <script src="../../../js/jquery.min.js"></script>
+    <script src="../js/cart.js"></script>
+</head>
+
+<body>
+    <div class="taobao cart">
+        <div class="header">
+            <div class="container">
+                <div class="topnav">
+                    <div class="header-l">
+                        <ul>
+                            <li>
+                                <a class="welcome" href="">欢迎</a>
+                                <span class="vip"></span>
+                            </li>
+                            <li>
+                                <span>消息</span>
+                            </li>
+                            <li>
+                                <a href="#">手机逛淘宝</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header-r">
+                        <ul>
+                            <li>
+                                <a href="../index.html">淘宝网首页</a>
+                            </li>
+                            <li>
+                                <a href="#">我的淘宝</a>
+                                <i class="iconfont icon-xiala"></i>
+                            </li>
+                            <li>
+                                <i class="iconfont icon-gouwuche"></i>
+                                <a class="cart" href="#">购物车</a>
+                                <i class="iconfont icon-xiala"></i>
+                            </li>
+                            <li>
+                                <i class="iconfont icon-shoucangjia1"></i>
+                                <a href="#">收藏夹</a>
+                                <i class="iconfont icon-xiala"></i>
+                            </li>
+                            <li>
+                                <a href="#">商品分类</a>
+                                <i class="iconfont"></i>
+                            </li>
+                            <li>
+                                <a href="#">卖家中心</a>
+                                <i class="iconfont icon-xiala"></i>
+                            </li>
+                            <li>
+                                <a href="#">联系客服</a>
+                                <i class="iconfont icon-xiala"></i>
+                            </li>
+                            <li>
+                                <i class="iconfont"></i>
+                                <a href="#">网站导航</a>
+                                <i class="iconfont icon-xiala"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main clearfix">
+            <div class="container">
+                <div class="main_head">
+                    <a href="../index.html">
+                        <img src="../images/cart_logo.png" alt="">
+                    </a>
+                </div>
+                <div class="main_cart">
+                    <div class="cart_hd">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <em>全部商品</em>
+                                    <span class="totalGoods">0</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <em>降价商品</em>
+                                    <span class="number">0</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <em>库存紧张</em>
+                                    <span class="number">0</span>
+                                </a>
+                            </li>
+                            <li class="cart-sum">
+                                <span class="pay-text">已选商品（不含运费,取整）</span>
+                                <strong class="selectPrice">0.00</strong>
+                                <a class="submit-btn">结 算</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="cart_con">
+                        <ul class="cart_table">
+                            <li>
+                                <input id="selectAll" type="checkbox" /> 全选
+                            </li>
+                            <li>商品信息</li>
+                            <li>单价</li>
+                            <li>数量</li>
+                            <li>金额</li>
+                            <li>操作</li>
+
+                        </ul>
+                        <div class="cart_item_box">
+                            <!-- <ul class="cart_items">
+                                <li>
+                                    <input type="checkbox" />
+                                </li>
+                                <li class="info">
+                                    <img src="../images/goods030/s1.png" />
+                                    <a class="notes" href="#">轻松玩转Scratch编程 scratch少儿趣味编程2.0 儿童编程scratch 游戏设计书 小学生编程真好玩-6岁开始学scratch入门教程</a>
+                                </li>
+                                <li class="uprice">
+                                    <span>0</span>
+                                </li>
+                                <li>
+                                    <div class="item-amount">
+                                        <a href="#" class="minus">-</a>
+                                        <input type="text" class="text-amount">
+                                        <a href="#" class="plus">+</a>
+                                    </div>
+                                </li>
+                                <li class="price">
+                                    <span>0</span>
+                                </li>
+                                <li class="delete">
+                                    <a href="#">删除</a>
+                                </li>
+                            </ul> -->
+                        </div>
+                        <ul class="cart_ft">
+                            <li>
+                                <input id="selectAll" type="checkbox" />&emsp;全选
+                            </li>
+                            <li class="del">
+                                <a href="#">删除所选商品</a>
+                            </li>
+                            <li>
+                                <span class="txt">已选商品</span>
+                                <em class="select_num">0</em>
+                                <span class="txt">件</span>
+                            </li>
+                            <li>
+                                <span class="txt">合计（不含运费,取整）：</span>
+                                <em class="total_price">0</em>
+                            </li>
+                            <li class="count">
+                                <a href="#">结 算</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="link">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#">阿里巴巴集团</a>
+                    </li>
+                    <li>
+                        <a href="#">阿里巴巴国际站</a>
+                    </li>
+                    <li>
+                        <a href="#">阿里巴巴中国站</a>
+                    </li>
+                    <li>
+                        <a href="#">全球速卖通</a>
+                    </li>
+                    <li>
+                        <a href="#">淘宝网</a>
+                    </li>
+                    <li>
+                        <a href="#">天猫</a>
+                    </li>
+                    <li>
+                        <a href="#">聚划算</a>
+                    </li>
+                    <li>
+                        <a href="#">一淘</a>
+                    </li>
+                    <li>
+                        <a href="#">阿里妈妈</a>
+                    </li>
+                    <li>
+                        <a href="#">飞猪</a>
+                    </li>
+                    <li>
+                        <a href="#">虾米</a>
+                    </li>
+                    <li>
+                        <a href="#">阿里云计算</a>
+                    </li>
+                    <li>
+                        <a href="#">云OS</a>
+                    </li>
+                    <li>
+                        <a href="#">万网</a>
+                    </li>
+                    <li>
+                        <a href="#">支付宝</a>
+                    </li>
+                    <li>
+                        <a href="#">来往</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer-t">
+                    <ul>
+                        <li>
+                            <a href="#">关于淘宝</a>
+                        </li>
+                        <li>
+                            <a href="#">合作伙伴</a>
+                        </li>
+                        <li>
+                            <a href="#">营销中心</a>
+                        </li>
+                        <li>
+                            <a href="#">廉正举报</a>
+                        </li>
+                        <li>
+                            <a href="#">联系客服</a>
+                        </li>
+                        <li>
+                            <a href="#">开放平台</a>
+                        </li>
+                        <li>
+                            <a href="#">诚征英才</a>
+                        </li>
+                        <li>
+                            <a href="#">联系我们</a>
+                        </li>
+                        <li>
+                            <a href="#">网站地图</a>
+                        </li>
+                        <li>
+                            <a href="#">法律声明及隐私权政策</a>
+                        </li>
+                    </ul>
+                    <span>© 2018 Taobao.com 版权所有</span>
+
+                </div>
+                <div class="footer-b">
+                    <ul>
+                        <li>网络文化经营许可证：浙网文[2016]0132-032号 |</li>
+                        <li>增值电信业务经营许可证：浙B2-20080224-1 |</li>
+                        <li>信息网络传播视听节目许可证：1109364号</li>
+                    </ul>
+                    <a href="#">
+                        <img src="../images/jb.gif" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

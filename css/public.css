@@ -1,0 +1,224 @@
+@charset "UTF-8";
+.taobao {
+  background: #f5f5f5;
+  font-family: "宋体";
+}
+.taobao a,
+.taobao i,
+.taobao span {
+  font-size: 12px;
+}
+
+.J_login span {
+  display: none;
+}
+
+.header .topnav {
+  display: flex;
+  justify-content: space-between;
+}
+.header .topnav ul {
+  display: flex;
+  position: relative;
+}
+.header .topnav ul li {
+  display: flex;
+  padding: 0 6px;
+  line-height: 32px;
+}
+.header .topnav ul li:hover a {
+  color: #f40;
+}
+.header .topnav ul li:hover .icon-shoucangjia1 {
+  color: #f40;
+}
+.header .topnav ul li a {
+  display: block;
+  color: #6C6C6C;
+  padding: 0 7px 0 4px;
+}
+.header .topnav ul li i {
+  margin-top: 3px;
+  color: #6C6C6C;
+}
+.header .topnav ul li:hover .active {
+  display: block;
+}
+.header .topnav ul li .active {
+  position: absolute;
+  top: 32px;
+  left: 102px;
+  width: 44px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+  display: inline-block;
+  color: #6C6C6C;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 4px;
+  display: none;
+  cursor: pointer;
+}
+.header .topnav .header-l li span {
+  margin-right: 7px;
+}
+.header .topnav .header-l li:nth-child(2) a {
+  color: #f22e00;
+  margin-right: -16px;
+}
+.header .topnav .header-r .icon-gouwuche {
+  color: #f40;
+}
+
+.search {
+  background: #fff;
+}
+.search .container {
+  display: flex;
+}
+.search .container .logo a {
+  display: block;
+  width: 190px;
+  height: 140px;
+  background: url(../images/logo.gif);
+  text-indent: -190px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.search .container .search-wrap {
+  margin: 43px 0 10px 68px;
+}
+.search .container .search-wrap .search-hd ul {
+  display: flex;
+  margin-left: 17px;
+}
+.search .container .search-wrap .search-hd ul li {
+  font-size: 12px;
+  color: #f40;
+  cursor: pointer;
+  width: 36px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  border-radius: 6px 6px 0 0;
+}
+.search .container .search-wrap .search-hd ul li:hover {
+  color: #fff;
+  font-weight: 700;
+  background: #ff5000;
+}
+.search .container .search-wrap .search-con {
+  position: relative;
+}
+.search .container .search-wrap .search-con form input {
+  width: 554px;
+  height: 36px;
+  border: 2px solid #ff5000;
+  border-radius: 20px 0 0 20px;
+}
+.search .container .search-wrap .search-con i {
+  font-size: 16px;
+  position: absolute;
+  top: 12px;
+  left: 14px;
+  color: #666;
+}
+.search .container .search-wrap .search-con button {
+  position: absolute;
+  left: 558px;
+  top: 0;
+  width: 74px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFF;
+  background-color: #FF4200;
+  cursor: pointer;
+  border-radius: 0 20px 20px 0;
+}
+.search .container .search-wrap .search-ft ul {
+  display: flex;
+}
+.search .container .search-wrap .search-ft ul li {
+  height: 18px;
+}
+.search .container .search-wrap .search-ft ul li a {
+  color: #3C3C3C;
+  margin-right: 4px;
+}
+.search .container .search-wrap .search-ft ul li a:hover {
+  color: #f40;
+}
+.search .container .search-wrap .search-ft ul .select a {
+  color: #f40;
+}
+.search .container .code {
+  margin: 43px 0 0 185px;
+}
+.search .container .code .tdcode a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 74px;
+  height: 88px;
+  color: #ff5000;
+  border: 1px solid #eee;
+  background-color: #FFF;
+}
+.search .container .code .tdcode img {
+  width: 62px;
+  height: 62px;
+}
+
+.link,
+.footer {
+  background: #fff;
+}
+
+.link ul {
+  display: flex;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.link ul li {
+  line-height: 42px;
+}
+.link ul li a {
+  color: #6c6c6c;
+  padding: 0 8px;
+  border-right: 1px solid #ddd;
+}
+.link ul li:last-child a {
+  border: none;
+}
+
+.footer ul {
+  display: flex;
+  margin-left: 4px;
+}
+.footer ul li {
+  line-height: 30px;
+  font-size: 12px;
+}
+.footer ul li a {
+  color: #6c6c6c;
+  margin: 0 4px;
+}
+
+.footer .footer-t {
+  display: flex;
+}
+.footer .footer-t span {
+  line-height: 30px;
+  color: #9c9c9c;
+  margin-left: 30px;
+}
+.footer .footer-b li {
+  color: #9c9c9c;
+  margin: 0 4px;
+}
+
+/*# sourceMappingURL=public.css.map */

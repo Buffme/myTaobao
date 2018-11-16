@@ -1,0 +1,143 @@
+.login {
+  background: #fff;
+}
+.login .header .container {
+  height: 66px;
+}
+.login .header .container h1 a {
+  display: block;
+  float: left;
+  width: 108px;
+  height: 43px;
+  background: url(../images/logo.png) center no-repeat;
+  text-indent: -108px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.login .header .container .massage {
+  width: 880px;
+  margin: 0 auto;
+  margin-top: 22px;
+  height: 28px;
+  background: #fef2f2;
+  border: 1px solid #ffb4a8;
+  color: #6C6C6C;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login .header .container .advice {
+  display: block;
+  margin-top: 16px;
+  float: right;
+  color: #666;
+  font-size: 12px;
+  text-decoration: none;
+}
+.login .header .container .advice i {
+  font-size: 16px;
+  color: #f40;
+}
+.login .main {
+  background-image: url(../images/banner_login.jpg);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 600px;
+  position: relative;
+  margin-bottom: 60px;
+}
+.login .main .login-box {
+  position: absolute;
+  width: 300px;
+  padding: 25px 25px 23px;
+  color: #6c6c6c;
+  background: #fff;
+  position: absolute;
+  top: 120px;
+  right: 60px;
+  margin: 0 auto;
+}
+.login .main .login-box a {
+  color: #6c6c6c;
+}
+.login .main .login-box a:hover {
+  color: #f40;
+}
+.login .main .login-box .login-title {
+  height: 18px;
+  line-height: 18px;
+  font-size: 16px;
+  color: #3c3c3c;
+  margin-top: 9px;
+  padding-bottom: 8px;
+  font-weight: 700;
+}
+.login .main .login-box .field {
+  margin-top: 20px;
+  display: flex;
+  position: relative;
+}
+.login .main .login-box .field label {
+  position: absolute;
+  top: 1px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  background: #ddd;
+  text-align: center;
+}
+.login .main .login-box .field label i {
+  font-size: 22px;
+}
+.login .main .login-box .field input {
+  width: 240px;
+  line-height: 18px;
+  height: 18px;
+  padding: 11px 8px 11px 50px;
+  border: 1px solid #ddd;
+}
+.login .main .login-box .submit-field button {
+  width: 300px;
+  height: 42px;
+  line-height: 42px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background: #f40;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.login .main .login-box .entries {
+  margin-top: 24px;
+  line-height: 14px;
+  height: 14px;
+  display: flex;
+}
+.login .main .login-box .entries a {
+  display: flex;
+}
+.login .main .login-box .entries a i {
+  color: #e52425;
+  font-size: 20px;
+  margin: 6px 3px 0 0;
+}
+.login .main .login-box .entries .alipay-login {
+  margin-left: 20px;
+}
+.login .main .login-box .entries .alipay-login i {
+  color: #1ba9ee;
+}
+.login .main .login-box .login-links {
+  margin-top: 24px;
+  text-align: right;
+}
+.login .main .login-box .login-links a {
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=login.css.map */

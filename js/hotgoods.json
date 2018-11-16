@@ -1,0 +1,114 @@
+[
+    {
+        "bid": "001",
+        "src": "slide1.jpg",
+        "price": "43.80",
+        "deals": "423",
+        "notes": "从零开始学微信小程序 程序应用零基础入门"
+    },
+    {
+        "bid": "002",
+        "src": "slide2.jpg",
+        "price": "33.90",
+        "deals": "113",
+        "notes": "Java核心技术卷I+II入门到精通教程编程思想"
+    },
+    {
+        "bid": "003",
+        "src": "slide3.jpg",
+        "price": "57.80",
+        "deals": "225",
+        "notes": "游戏开发 Python游戏编程入门使用P"
+    },
+    {
+        "bid": "004",
+        "src": "slide4.jpg",
+        "price": "33.60",
+        "deals": "101",
+        "notes": "java编程程序员核心技术手册计算机教程"
+    },
+    {
+        "bid": "005",
+        "src": "slide5.jpg",
+        "price": "21.00",
+        "deals": "180",
+        "notes": "官方正版 编玩边学:Scratch趣"
+    },
+    {
+        "bid": "006",
+        "src": "slide6.jpg",
+        "price": "77.10",
+        "deals": "58",
+        "notes": "sas编程数据操作集管理函数例程格式宏"
+    },
+    {
+        "bid": "007",
+        "src": "slide7.jpg",
+        "price": "30.20",
+        "deals": "79",
+        "notes": "跨平台桌面应用开发基于Electron与NW.js"
+    },
+    {
+        "bid": "008",
+        "src": "slide8.jpg",
+        "price": "53.80",
+        "deals": "223",
+        "notes": "汇编语言(第3版) 王爽"
+    },
+    {
+        "bid": "009",
+        "src": "slide9.jpg",
+        "price": "29.30",
+        "deals": "344",
+        "notes": "Python从入门到精通 明日科技 py"
+    },
+    {
+        "bid": "010",
+        "src": "slide10.jpg",
+        "price": "31.40",
+        "deals": "203",
+        "notes": "Python基础教程 第3版 Python教程书籍"
+    },
+    {
+        "bid": "011",
+        "src": "slide11.jpg",
+        "price": "66.10",
+        "deals": "62",
+        "notes": "书籍  程序设计教材  计算机网络书籍 C书"
+    },
+    {
+        "bid": "012",
+        "src": "slide12.jpg",
+        "price": "22.60",
+        "deals": "53",
+        "notes": "vb编程书籍 VISUAL_BASIC程序设计书籍"
+    },
+    {
+        "bid": "013",
+        "src": "slide13.jpg",
+        "price": "23.90",
+        "deals": "247",
+        "notes": "Python从入门到项目实践零基础 py"
+    },
+    {
+        "bid": "014",
+        "src": "slide14.jpg",
+        "price": "30.60",
+        "deals": "153",
+        "notes": "API函数 MFC框架教程 计算机教材 畅销书籍"
+    },
+    {
+        "bid": "015",
+        "src": "slide15.jpg",
+        "price": "51.80",
+        "deals": "23",
+        "notes": "正版现货 信息学奥赛 全国青少年信息学奥林"
+    },
+    {
+        "bid": "016",
+        "src": "slide16.jpg",
+        "price": "23.80",
+        "deals": "323",
+        "notes": "从零开始学微信小程序 程序应用零基础入门"
+    }
+]

@@ -1,0 +1,309 @@
+@charset "UTF-8";
+.register .main {
+  background: #fff;
+  position: relative;
+}
+.register .main .header {
+  display: flex;
+  padding: 20px 0;
+}
+.register .main .header .logo a {
+  display: block;
+  float: left;
+  width: 108px;
+  height: 43px;
+  background: url(../images/logo.png) center no-repeat;
+  text-indent: -108px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.register .main .header .pageName {
+  height: 43px;
+  line-height: 43px;
+  margin-left: 6px;
+  font-size: 22px;
+  color: #3c3c3c;
+  font-family: arial;
+  font-weight: 400;
+  vertical-align: middle;
+}
+.register .main .steps {
+  height: 46px;
+  border-bottom: 2px solid #e6e6e6;
+  position: relative;
+}
+.register .main .steps ol {
+  width: 720px;
+  margin: 0 auto;
+}
+.register .main .steps ol li {
+  float: left;
+  width: 300px;
+  text-align: center;
+  height: 46px;
+  line-height: 46px;
+  font-family: arial;
+  font-weight: 700;
+  color: #999;
+}
+.register .main .steps ol li:last-child i {
+  height: 20px;
+  padding-top: 4px;
+}
+.register .main .steps ol li i {
+  display: inline-block;
+  margin-right: 5px;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 50%;
+  background: #999;
+}
+.register .main .steps ol li span {
+  font-size: 16px;
+}
+.register .main .steps ol li.active {
+  color: #3e3e3e;
+  border-bottom: 2px solid #ff4700;
+}
+.register .main .steps ol li.active i {
+  background: #ff4700;
+}
+.register .main .steps .lang-switcher {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  font-size: 12px;
+}
+.register .main .steps .lang-switcher a {
+  padding: 3px 5px;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.register .main .steps .lang-switcher a:hover {
+  color: #ff5b20;
+  text-decoration: underline;
+}
+.register .main .content {
+  height: 247px;
+  padding: 50px 0;
+}
+.register .main .content ul {
+  overflow: hidden;
+}
+.register .main .content ul li {
+  position: relative;
+  margin: 0 auto;
+  width: 720px;
+  height: 247px;
+  display: none;
+}
+.register .main .content ul li .field {
+  height: 34px;
+  padding: 12px 0;
+}
+.register .main .content ul li .field label {
+  display: inline-block;
+  height: 34px;
+  line-height: 34px;
+  text-align: right;
+  width: 90px;
+}
+.register .main .content ul li .field input {
+  display: inline-block;
+  height: 34px;
+  line-height: 34px;
+  width: 250px;
+  border: 1px solid #ededed;
+}
+.register .main .content ul li .field span.info,
+.register .main .content ul li .field span.error,
+.register .main .content ul li .field span.succ {
+  display: block;
+  font-size: 12px;
+  color: #333;
+  width: 167px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 0 0 33px;
+  position: absolute;
+  display: none;
+}
+.register .main .content ul li .field span.info {
+  background: url(../images/reg_info.png) no-repeat;
+}
+.register .main .content ul li .field span.error {
+  background: url(../images/reg_error.png) no-repeat;
+}
+.register .main .content ul li .field span.succ {
+  background: url(../images/reg_succ.png) no-repeat 3px center;
+  padding: 0 0 0 20px;
+  color: green;
+}
+.register .main .content ul li .field span.info_user {
+  height: 43px;
+  line-height: 18px;
+  background: url(../images/reg_info2.png) no-repeat;
+  padding-top: 7px;
+  top: 8px;
+  left: 380px;
+}
+.register .main .content ul li .field span.error_user {
+  top: 14px;
+  left: 380px;
+}
+.register .main .content ul li .field span.succ_user {
+  top: 14px;
+  left: 380px;
+}
+.register .main .content ul li .field span.info_pass {
+  width: 260px;
+  height: 104px;
+  padding-top: 2px;
+  background: url(../images/reg_info3.png) no-repeat;
+  top: 36px;
+  left: 380px;
+}
+.register .main .content ul li .field span.info_pass p {
+  height: 25px;
+  line-height: 25px;
+  color: #666;
+}
+.register .main .content ul li .field span.info_pass p strong.s {
+  color: #ccc;
+}
+.register .main .content ul li .field span.error_pass {
+  top: 72px;
+  left: 380px;
+}
+.register .main .content ul li .field span.succ_pass {
+  top: 72px;
+  left: 380px;
+}
+.register .main .content ul li .field span.info_repass {
+  top: 130px;
+  left: 380px;
+}
+.register .main .content ul li .field span.error_repass {
+  top: 130px;
+  left: 380px;
+}
+.register .main .content ul li .field span.succ_repass {
+  top: 130px;
+  left: 380px;
+}
+.register .main .content ul li .submit-field {
+  padding: 8px 0;
+  margin-left: 150px;
+}
+.register .main .content ul li .submit-field button {
+  background-color: #ededed;
+  border-color: #ededed;
+  color: #999;
+  height: 34px;
+  line-height: 34px;
+  padding: 0 35px;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.register .main .content ul li .submit-field button:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.register .main .content ul li .switch {
+  margin-left: 155px;
+  color: #ff5b20;
+  text-decoration: none;
+}
+.register .main .content ul li .switch:hover {
+  text-decoration: underline;
+}
+.register .main .content ul li .sucess-field h6 i {
+  color: green;
+  font-size: 24px;
+}
+.register .main .content ul li .sucess-field h6 span {
+  font-size: 16px;
+}
+.register .main .content ul li .sucess-field p {
+  font-size: 14px;
+  line-height: 28px;
+}
+.register .main .content ul li.active {
+  display: block;
+}
+.register .main .agreement {
+  left: 312px;
+  top: 70px;
+  width: 680px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #3e3e3e;
+  border: 2px solid #dedede;
+  border-top: 2px solid #ff4a00;
+  background-color: #FFF;
+  position: absolute;
+}
+.register .main .agreement .agreement-content .agreement-close {
+  display: inline-block;
+  text-align: center;
+  line-height: 24px;
+  color: #ddd;
+  position: absolute;
+  right: 20px;
+}
+.register .main .agreement .agreement-content .agreement-close i {
+  font-size: 16px;
+}
+.register .main .agreement .agreement-content .agreement-close i:hover {
+  color: #f40;
+}
+.register .main .agreement .agreement-content h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.register .main .agreement .agreement-content .agreement-body p {
+  font-size: 12px;
+  line-height: 19px;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+.register .main .agreement .agreement-content .agreement-body p strong {
+  color: #000;
+  font-weight: 700;
+}
+.register .main .agreement .agreement-content .agreement-body p a {
+  font-weight: 700;
+  font-size: 14px;
+  color: #ff5b20;
+}
+.register .main .agreement .agreement-content .agreement-body p a:hover {
+  text-decoration: underline;
+}
+.register .main .agreement .agreement-content .agreement-body p .agreement-btn {
+  display: inline-block;
+  width: 180px;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 20px;
+  color: #fff;
+  font-weight: bold;
+  font-family: "宋体";
+  font-size: 16px;
+  text-align: center;
+  background: #ff4001;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=register.css.map */

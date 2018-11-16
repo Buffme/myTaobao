@@ -1,0 +1,205 @@
+.details_book{
+    .header{
+        .topnav{
+            .icon-zhuye{
+                color: #ff0036;
+                font-size:16px;
+                padding-top:2px;
+                margin-right:-4px;
+            }
+            a,
+            span,
+            i{
+                color: #999
+            }
+            .header-l{
+                ul{
+                    li{
+                        line-height:30px;
+                    }
+                } 
+            }
+        }
+    }
+    .main{
+        background: #fff;
+        .main_hd{
+            padding:15px 0;
+        }
+        .main_detail{
+            .container{
+                position: relative;
+                margin: 20px auto;
+                .detail_left{
+                    width:990px;
+                    float:left;
+                    .detail_box{
+                        width: 100%;
+                        display:flex;
+                        .detail_pics{
+                            .m_pics{
+                                width: 420px;
+                                height: 420px;
+                                margin: 20px;
+                                position: relative;
+                                .m_pic{
+                                    display: block;
+                                    width: 418px;
+                                    height: 418px;
+                                    border: 1px solid rgba(0,0,0,.05);
+                                    position: relative;
+                                    img{
+                                        max-width: 100%;
+                                        max-height: 100%;
+                                    }
+                                    .mask{
+                                        position: absolute;
+                                        width:50%;
+                                        height:50%;
+                                        background-image:url(../images/mask.png);
+                                        background-repeat: repeat;
+                                        cursor: move;
+                                        top:0;
+                                        left:0;
+                                        //
+                                        display:none; 
+                                    }
+                                }
+                            }
+                            .l_pics{
+                                position: absolute;
+                                width: 418px;
+                                height: 418px;
+                                border: 1px solid rgba(0,0,0,.05);
+                                top:20px;
+                                left:460px;
+                                overflow:hidden;
+                                background: #fff;
+                                //
+                                display:none;
+                                img{
+                                    position: absolute;
+                                    top:0;
+                                    left:0;
+                                }
+                            }
+                            .s_pics{
+                                display:flex;
+                                margin-left:28px;
+                                .s_pic{
+                                    display:flex;
+                                    margin-left:16px;
+                                    a{
+                                        width: 60px;
+                                        height: 60px;
+                                        overflow: hidden;
+                                        &:hover{
+                                            border: 2px solid #000;
+                                            width: 56px;
+                                            height: 56px;
+                                        }
+                                        &:hover img{
+                                            transform:translate(-2px,-2px);
+                                        }
+                                    }
+
+                                }
+                            }
+                            .share{
+                                padding: 40px;
+                                a{
+                                    color: #999;
+                                    margin-right:24px;
+                                    i{
+                                        color: #baaa99;
+                                    }
+                                }
+                                .report{
+                                    float:right;
+                                }
+                                
+                            }
+                        }
+                        .detail_bd{
+                            margin-top:20px;
+                            .curt{
+                                margin-top:40px;
+                                display:flex;
+                                text-align: center;
+                                a{
+                                    margin: 0 5px;
+                                    text-align: center;
+                                    height: 38px;
+                                    line-height: 38px;
+                                    i,
+                                    span{
+                                        font-size: 16px;
+                                        font-family: arial;
+                                    }
+                                }
+                                .buy{
+                                    color: #E5511D;
+                                    border: 1px solid #F0CAB6;
+                                    background: #FFE4D0;
+                                    width: 134px;
+                                }
+                                .add{
+                                    background-color: #ff0036;
+                                    border: 1px solid #ff0036;
+                                    color: #fff;
+                                    width: 178px;
+                                    cursor:pointer;
+                                    //text-align: center;
+
+                                }
+                            }
+                        }
+                    }
+                }
+                .detail_right{
+                    position: absolute;
+                    top: 0;
+                    right: -200px;
+                    width: 200px;
+                    border-left: 1px solid #f2f2f2;
+                }
+            }
+        }
+    }
+    .slide{
+        background: #000;   
+        right: 0;
+        width: 14px;
+        padding:10px;
+        position: fixed;
+        top: 35px;
+        height:90px;
+        &:hover{
+            background: #f40;
+        }
+        &:hover .icon-gouwuche1{
+            color:#fff;
+        }
+        .my_curt{
+            color: #fff;
+            position: relative;
+            i{
+                font-size:14px;
+                color:#f40;
+            }
+            .num{
+                position: absolute;
+                width:30px;
+                height:30px;
+                line-height:30px;
+                text-align: center;
+                border-radius: 50%;
+                background: #f40;
+                color:#fff;
+                top:-24px;
+                left:-24px;
+            }
+        }
+        
+    }
+}

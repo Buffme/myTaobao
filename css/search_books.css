@@ -1,0 +1,648 @@
+@charset "UTF-8";
+.search_books .main {
+  background: #fff;
+}
+.search_books .main .main_topSearch {
+  padding-top: 17px;
+  width: 940px;
+}
+.search_books .main .main_topSearch .logo a {
+  display: block;
+  float: left;
+  width: 108px;
+  height: 43px;
+  background: url(../images/logo.png) center no-repeat;
+  text-indent: -108px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.search_books .main .main_topSearch .search_inner {
+  margin-top: 8px;
+  height: 35px;
+  float: right;
+}
+.search_books .main .main_topSearch .search_inner .search_innerbox {
+  float: left;
+  display: flex;
+  border: solid 2px #f50;
+  border-right: none;
+  height: 31px;
+  width: 601px;
+  overflow: hidden;
+}
+.search_books .main .main_topSearch .search_inner .search_innerbox .tab {
+  font-size: 12px;
+  position: relative;
+  width: 67px;
+  overflow: hidden;
+  height: 31px;
+  line-height: 31px;
+  border-right: solid 1px #e5e5e5;
+  border-left: solid 1px #f5f5f5;
+}
+.search_books .main .main_topSearch .search_inner .search_innerbox .tab .triggers {
+  text-indent: 15px;
+  color: #6b6b6b;
+}
+.search_books .main .main_topSearch .search_inner .search_innerbox .tab .triggers .trigger.selected {
+  background: #f5f5f5;
+}
+.search_books .main .main_topSearch .search_inner .search_innerbox .tab i {
+  width: 7px;
+  height: 4px;
+  position: absolute;
+  right: 8px;
+  top: 13px;
+  background: url(../images/taobao_icons.png);
+  background-repeat: no-repeat;
+  background-position: -296px -423px;
+}
+.search_books .main .main_topSearch .search_inner .search_innerbox .inputs {
+  width: 530px;
+}
+.search_books .main .main_topSearch .search_inner .search_innerbox .inputs input {
+  width: 495px;
+  padding-left: 5px;
+  font-size: 14px;
+  font-family: "宋体";
+  border: 0;
+  color: #000;
+  line-height: 31px;
+}
+.search_books .main .main_topSearch .search_inner .search_innerbox .camera span {
+  margin-top: 5px;
+  margin-right: 5px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/camera.png);
+  background-size: 20px 45px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.search_books .main .main_topSearch .search_inner .submit {
+  float: left;
+  width: 80px;
+  height: 35px;
+  border: none;
+  cursor: pointer;
+  background: url(../images/taobao_icons.png);
+  background-repeat: no-repeat;
+  background-position: -125px -58px;
+  font-size: 0;
+}
+.search_books .main .main-inner .main_left {
+  float: left;
+  width: 940px;
+}
+.search_books .main .main-inner .main_left .top_content {
+  width: 100%;
+}
+.search_books .main .main-inner .main_left .top_content .tabs {
+  margin-top: 15px;
+  border-bottom: 2px solid #f40;
+  font-size: 16px;
+  display: flex;
+}
+.search_books .main .main-inner .main_left .top_content .tabs .tab a {
+  display: block;
+  height: 38px;
+  line-height: 38px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-family: arial;
+  color: #333;
+}
+.search_books .main .main-inner .main_left .top_content .tabs .tab a:hover {
+  background: #f40;
+  color: #fff;
+}
+.search_books .main .main-inner .main_left .top_content .tabs .tab .select {
+  background: #f40;
+  color: #fff;
+}
+.search_books .main .main-inner .main_left .top_content .category {
+  margin-top: 10px;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat_hd {
+  margin-left: 20px;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat_hd .show-expand {
+  float: right;
+  margin: 0 0 0 4px;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #e8e8e8;
+  padding: 0 9px;
+  background: #f6f6f6;
+  color: #6b6b6b;
+  cursor: pointer;
+  text-decoration: none;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat_hd .show-expand div .arrow {
+  width: 7px;
+  height: 4px;
+  display: inline-block;
+  background: url(../images/taobao_icons.png);
+  background-repeat: no-repeat;
+  background-position: -279px -423px;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat_hd .show-expand div span:hover {
+  color: #f40;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat_hd .show-expand .collapse {
+  display: none;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat_hd .show-expand .collapse .arrow {
+  background-position: -412px -322px;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat_hd .cat-text {
+  line-height: 26px;
+  color: #666;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat_hd .icon-right {
+  display: inline-block;
+  background: url(../images/taobao_icons.png);
+  background-repeat: no-repeat;
+  background-position: -111px -423px;
+  width: 5px;
+  height: 9px;
+  margin-left: -2px;
+  line-height: 26px;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat_bd {
+  margin-top: 11px;
+  position: relative;
+  display: none;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat_bd .cat_bd_con {
+  padding: 0 8px;
+  width: 922px;
+  height: 38px;
+  overflow: hidden;
+  border: 1px solid #e8e8e8;
+  display: flex;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat_bd .cat_bd_con .head {
+  width: 100px;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+  line-height: 38px;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat_bd .cat_bd_con .body {
+  width: 710px;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat_bd .cat_bd_con .body .items .items_inner a {
+  display: inline-block;
+  margin: 12px 40px 0 0;
+  height: 18px;
+  color: #000;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat_bd .cat_bd_con .body .items .items_inner a:hover {
+  color: #f40;
+  text-decoration: underline;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat_bd .cat_bd_con .foot span {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  height: 18px;
+  padding-right: 10px;
+  cursor: pointer;
+  display: none;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat_bd .cat_bd_con .foot span:hover {
+  color: #f40;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat_bd .cat_bd_con .foot span .icon {
+  margin-left: -4px;
+  width: 7px;
+  height: 4px;
+  display: inline-block;
+  background: url(../images/taobao_icons.png);
+  background-repeat: no-repeat;
+  background-position: -279px -423px;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat_bd .cat_bd_con .foot span .icon-up {
+  background-position: -412px -322px;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat_bd .cat_bd_con .foot .down {
+  display: inline-block;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat-related {
+  margin-top: 10px;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat-related .inner {
+  display: flex;
+  height: 18px;
+  padding: 12px 19px;
+  color: #9a9a9a;
+  border: 1px solid #e8e8e8;
+  font-size: 12px;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat-related .inner .inner_title {
+  width: 100px;
+  color: #9a9a9a;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat-related .inner .item a {
+  color: #6c6c6c;
+  margin-left: 20px;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat-related .inner .item a:hover {
+  color: #f40;
+  text-decoration: underline;
+}
+.search_books .main .main-inner .main_left .top_content .category .cat_choice {
+  margin-top: 10px;
+}
+.search_books .main .main-inner .main_left .main_goods {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -17px;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item {
+  margin-top: 22px;
+  margin-right: 17px;
+  width: 220px;
+  height: 360px;
+  border: 1px solid #ededed;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item:hover {
+  border-color: #f40;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .pic_box {
+  width: 220px;
+  height: 220px;
+  position: relative;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .pic_box .pic {
+  display: block;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .pic_box .pic img {
+  width: 220px;
+  height: 220px;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .pic_box .similars {
+  position: absolute;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  line-height: 30px;
+  display: none;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .pic_box .similars .bar {
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  right: 50%;
+  top: 0;
+  background: #f66d27;
+  opacity: 0.8;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .pic_box .similars a {
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  background: #f40;
+  opacity: 0.8;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .pic_box .similars .disabled {
+  color: #fba187;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box {
+  padding: 0 10px;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box .row-1 {
+  margin-top: 11px;
+  height: 22px;
+  line-height: 22px;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box .row-1 .price {
+  font-family: arial;
+  float: left;
+  font-size: 18px;
+  color: #f40;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box .row-1 .price span {
+  font-size: 18px;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box .row-1 .price strong {
+  font-weight: 700;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box .row-1 .deal-cnt {
+  color: #888;
+  float: right;
+  font-size: 12px;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box .row-1 .ship {
+  display: inline-block;
+  width: 27px;
+  height: 14px;
+  margin-top: 4px;
+  margin-left: 2px;
+  background: url(../images/items.png);
+  background-repeat: no-repeat;
+  background-position: -42px -139px;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box .row-2 {
+  height: 36px;
+  margin-top: 6px;
+  overflow: hidden;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box .row-2 a {
+  color: #3d3d3d;
+  overflow: hidden;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box .row-2 a:hover {
+  color: #f40;
+  text-decoration: underline;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box .row-3 {
+  margin-top: 5px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 12px;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box .row-3 .shop .shopname {
+  float: left;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box .row-3 .shop .shopname i {
+  color: #f40;
+  font-size: 12px;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box .row-3 .shop .shopname span {
+  color: #888;
+  text-decoration: underline;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box .row-3 .location {
+  float: right;
+  color: #888;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box .row-4 {
+  padding: 0 10px 0 6px;
+  margin-top: 10px;
+  height: 20px;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box .row-4 .icons {
+  width: 180px;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box .row-4 .icons .icon {
+  float: left;
+  margin-right: 10px;
+  font-size: 0;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box .row-4 .icons .icon .icon_hot {
+  margin-left: -6px;
+  display: inline-block;
+  background: url(../images/items.png);
+  background-repeat: no-repeat;
+  width: 49px;
+  height: 16px;
+  background-position: -5px -113px;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box .row-4 .icons .icon .icon_tmall {
+  margin-left: -6px;
+  display: inline-block;
+  background: url(../images/items.png);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  background-position: -213px -199px;
+}
+.search_books .main .main-inner .main_left .main_goods .goods_item .ctx-box .row-4 .wangwang {
+  float: right;
+  background: url(../images/taobao_icons.png);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  font-size: 0;
+  background-position: -435px -86px;
+}
+.search_books .main .main-inner .main_left .main_page {
+  overflow: hidden;
+  position: relative;
+  margin: 20px;
+  padding: 10px 0;
+  height: 37px;
+}
+.search_books .main .main-inner .main_left .main_page .inner {
+  width: 650px;
+  margin: 0 auto;
+  display: flex;
+}
+.search_books .main .main-inner .main_left .main_page .inner .items {
+  display: flex;
+  font-family: arial;
+}
+.search_books .main .main-inner .main_left .main_page .inner .items .item {
+  width: 35px;
+  border: 1px solid #ededed;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  cursor: pointer;
+}
+.search_books .main .main-inner .main_left .main_page .inner .items .item:hover {
+  border-color: #f40;
+}
+.search_books .main .main-inner .main_left .main_page .inner .items .item:hover a {
+  color: #f40;
+}
+.search_books .main .main-inner .main_left .main_page .inner .items .item .num {
+  display: inline-block;
+  width: 100%;
+  color: #3e3e3e;
+  font-size: 14px;
+}
+.search_books .main .main-inner .main_left .main_page .inner .items .item .num span {
+  font-size: 16px;
+  color: #3e3e3e;
+}
+.search_books .main .main-inner .main_left .main_page .inner .items .direction {
+  width: 70px;
+  font-weight: 400;
+}
+.search_books .main .main-inner .main_left .main_page .inner .items .prev {
+  margin-right: 6px;
+  margin-left: 0;
+}
+.search_books .main .main-inner .main_left .main_page .inner .items .active {
+  background: #f40;
+  border-color: #f40;
+  cursor: default;
+  text-decoration: none;
+}
+.search_books .main .main-inner .main_left .main_page .inner .items .active .num {
+  color: #fff;
+}
+.search_books .main .main-inner .main_left .main_page .inner .items .dot {
+  border: none;
+  line-height: 37px;
+  width: 24px;
+  cursor: default;
+}
+.search_books .main .main-inner .main_left .main_page .inner .total {
+  line-height: 37px;
+  margin-left: 10px;
+  color: #999;
+  font-size: 12px;
+}
+.search_books .main .main-inner .main_left .main_page .inner .form {
+  color: #999;
+}
+.search_books .main .main-inner .main_left .main_page .inner .form .text {
+  margin-left: 5px;
+  line-height: 37px;
+}
+.search_books .main .main-inner .main_left .main_page .inner .form input {
+  width: 35px;
+  border: solid 1px #ededed;
+  height: 21px;
+  text-align: center;
+  color: #999;
+}
+.search_books .main .main-inner .main_left .main_page .inner .form .page_submit {
+  display: inline-block;
+  height: 21px;
+  width: 43px;
+  border: 1px solid #ededed;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 21px;
+  cursor: pointer;
+  color: #000;
+}
+.search_books .main .main-inner .main_left .main_page .inner .form .page_submit:hover {
+  border-color: #f40;
+  color: #f40;
+}
+.search_books .main .main-inner .main_right {
+  float: right;
+  margin-left: 10px;
+  width: 240px;
+}
+.search_books .main .main-inner .main_right .right-wrap {
+  position: relative;
+}
+.search_books .main .main-inner .main_right .right-wrap .top_title {
+  position: relative;
+  padding-top: 9px;
+  height: 34px;
+  line-height: 34px;
+  border-bottom: 1px solid #E8E8E8;
+  margin-bottom: 13px;
+}
+.search_books .main .main-inner .main_right .right-wrap .top_title a {
+  font-weight: 600;
+  font-size: 16px;
+  color: #555;
+}
+.search_books .main .main-inner .main_right .right-wrap .top_title .ad {
+  float: right;
+  position: relative;
+  background: url(../images/ad.png) 0 0;
+  width: 26px;
+  height: 16px;
+  right: 0px;
+  top: 8px;
+}
+.search_books .main .main-inner .main_right .right-wrap .hot_items .hot_item {
+  border: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+  position: relative;
+}
+.search_books .main .main-inner .main_right .right-wrap .hot_items .hot_item:hover {
+  border-color: #f40;
+}
+.search_books .main .main-inner .main_right .right-wrap .hot_items .hot_item .img {
+  width: 238px;
+  overflow: hidden;
+  text-align: center;
+}
+.search_books .main .main-inner .main_right .right-wrap .hot_items .hot_item .info {
+  display: block;
+  height: 18px;
+  line-height: 18px;
+  margin: 5px 10px;
+}
+.search_books .main .main-inner .main_right .right-wrap .hot_items .hot_item .info .tmall {
+  margin-right: 6px;
+  margin-top: 2px;
+  display: inline-block;
+  background: url(../images/items.png);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  background-position: -213px -199px;
+}
+.search_books .main .main-inner .main_right .right-wrap .hot_items .hot_item .info .yuan,
+.search_books .main .main-inner .main_right .right-wrap .hot_items .hot_item .info strong {
+  color: #f40;
+  font: 18px Verdana,Arial;
+  height: 18px;
+}
+.search_books .main .main-inner .main_right .right-wrap .hot_items .hot_item .info strong {
+  font-weight: 700;
+}
+.search_books .main .main-inner .main_right .right-wrap .hot_items .hot_item .info .sell {
+  color: #999;
+  float: right;
+  margin-top: 2px;
+}
+.search_books .main .main-inner .main_right .right-wrap .hot_items .hot_item .feedback {
+  position: absolute;
+  bottom: 63px;
+  left: 0;
+  height: 24px;
+  width: 100%;
+  display: none;
+  cursor: pointer;
+  z-index: 1;
+}
+.search_books .main .main-inner .main_right .right-wrap .hot_items .hot_item .feedback a {
+  width: 118px;
+  background: white;
+  float: left;
+  text-align: center;
+  color: #454545;
+  opacity: 0.9;
+  height: 24px;
+  line-height: 24px;
+  position: relative;
+}
+.search_books .main .main-inner .main_right .right-wrap .hot_items .hot_item .feedback .like {
+  border-right: 2px solid #e5e5e5;
+}
+.search_books .main .main-inner .main_right .right-wrap .hot_items .hot_item .feedback .bar {
+  width: 218px;
+  padding: 0 10px;
+  height: 33px;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  line-height: 35px;
+  overflow: hidden;
+  background: white;
+  opacity: 0.9;
+}
+.search_books .main .main-inner .main_right .right-wrap .hot_items .hot_item .feedback .bar p {
+  font-size: 12px;
+  font-weight: 700;
+  color: #555;
+}
+.search_books .main .main-inner .main_right .right-wrap .ft a {
+  position: absolute;
+  right: 10px;
+  width: 66px;
+  height: 25px;
+  border-radius: 1px;
+  background: #F40;
+  color: #FFF;
+  text-align: center;
+  text-decoration: none;
+  line-height: 25px;
+}
+
+/*# sourceMappingURL=search_books.css.map */

@@ -1,0 +1,434 @@
+[
+    {
+        "bid": "001",
+        "src": "i1.jpg",
+        "price": "44.90",
+        "deals": "179",
+        "notes": "现货 HTML5+CSS3+JavaScript从入门到精通JavaScript高级程序设计html5CSS3自学教程web前端开发书籍网页设计与制作",
+        "shopname": "华心图书专营店",
+        "location": "上海"
+    },
+    {
+        "bid": "002",
+        "src": "i2.jpg",
+        "price": "24.70",
+        "deals": "1930",
+        "notes": "零基础入门学习Python 小甲鱼计算机/网络 pyhton3.0从入门到精通python语言程序设计基础核心教程 python",
+        "shopname": "墨涵图书专营店",
+        "location": "河南 郑州"
+    },
+    {
+        "bid": "003",
+        "src": "i3.jpg",
+        "price": "39.80",
+        "deals": "3984",
+        "notes": "【赠实战项目】Java从入门到精通(第4版) java语言程序设计编程思想教程教材javascriptweb计算机自学",
+        "shopname": "墨涵图书专营店",
+        "location": "河南 郑州"
+    },
+    {
+        "bid": "004",
+        "src": "i4.jpg",
+        "price": "59.70",
+        "deals": "686",
+        "notes": "【当当网 正版书籍】Python编程从入门到实践python3核心编程基础教程网络爬虫入门",
+        "shopname": "当当网官方旗舰店",
+        "location": "北京"
+    },
+    {
+        "bid": "005",
+        "src": "i5.jpg",
+        "price": "49.80",
+        "deals": "461",
+        "notes": "包邮DK编程真好玩-6岁开始学scratch 少儿6-12-14周岁儿童经典计算机编程图书籍",
+        "shopname": "博库图书专营店",
+        "location": "浙江 杭州"
+    },
+    {
+        "bid": "006",
+        "src": "i6.jpg",
+        "price": "39.80",
+        "deals": "4329",
+        "notes": "【清华大学出品】C语言从入门到精通 (第3版) 零基础学c语言程序设计编程入门自学数据结构 c ++primer plus中文版计算机",
+        "shopname": "墨涵图书专营店",
+        "location": "河南 郑州"
+    },
+    {
+        "bid": "007",
+        "src": "i7.jpg",
+        "price": "96.80",
+        "deals": "270",
+        "notes": "赠教程】c语言从入门到精通+java从入门到精通 c++/c语言零基础电脑编程入门软件开发自学",
+        "shopname": "四川新榜图书专营店",
+        "location": "四川 成都"
+    },
+    {
+        "bid": "008",
+        "src": "i8.jpg",
+        "price": "39.80",
+        "deals": "49",
+        "notes": "包邮 java从入门到精通 第4版附光盘 明日科技软件开发视频大讲堂java编程入门 计算机基础程序自学入门学书 清华大学出版社正版",
+        "shopname": "博库图书专营店",
+        "location": "浙江 杭州"
+    },
+    {
+        "bid": "009",
+        "src": "i9.jpg",
+        "price": "39.90",
+        "deals": "694",
+        "notes": "正版现货 零基础学Python python编程从入门到实践书籍零基础入门学习pyhton从入门到精通python语言程序设计基础教程小甲鱼",
+        "shopname": "拓创图书专营店",
+        "location": "山东 青岛"
+    },
+    {
+        "bid": "010",
+        "src": "i10.jpg",
+        "price": "278.00",
+        "deals": "33",
+        "notes": "Java四大名著四册套 java编程思想（第4四版）从入门到精通核心技术effective java",
+        "shopname": "新华文轩网络书店",
+        "location": "四川 成都"
+    },
+    {
+        "bid": "011",
+        "src": "i11.jpg",
+        "price": "34.90",
+        "deals": "1102",
+        "notes": "正版现货 零基础学C语言 C语言从入门到精通C语言程序设计C语言书籍C语言",
+        "shopname": "拓创图书专营店",
+        "location": "山东 青岛"
+    },
+    {
+        "bid": "012",
+        "src": "i12.jpg",
+        "price": "60.70",
+        "deals": "132",
+        "notes": "【当当网 正版童书】DK编程真好玩：6岁开始学Scratch 英国中小学生计算机课程读本 专为6~16岁孩子设计",
+        "shopname": "当当网官方旗舰店",
+        "location": "北京"
+    },
+    {
+        "bid": "013",
+        "src": "i13.jpg",
+        "price": "51.60",
+        "deals": "9",
+        "notes": "Java多线程编程核心技术【新华书店旗舰店官网】",
+        "shopname": "凤凰新华书店旗舰店",
+        "location": "江苏 南京"
+    },
+    {
+        "bid": "014",
+        "src": "i14.jpg",
+        "price": "35.80",
+        "deals": "114",
+        "notes": "【清华正版】小学生C++趣味编程 潘洪波 计算机网络程序设计与互联网",
+        "shopname": "山东书虫图书专营店",
+        "location": "山东 济南"
+    },
+    {
+        "bid": "015",
+        "src": "i15.jpg",
+        "price": "39.50",
+        "deals": "24",
+        "notes": "我的第一本编程书 计算机编程入门自学书籍 电脑游戏软件编程入门 c++程序设计基础教程 程序设计 程序员入门教程 人民邮电出版社",
+        "shopname": "悦悦图书专营店",
+        "location": "上海"
+    },
+    {
+        "bid": "016",
+        "src": "i16.jpg",
+        "price": "41.86",
+        "deals": "12",
+        "notes": "小学生C++趣味编程 上下册 潘洪波 清华大学出版社 小学生信息学竞赛培训教材 全国青少年信息学奥林匹克普及组竞赛教材 C++入门书",
+        "shopname": "志达图书专营店",
+        "location": "上海"
+    },
+    {
+        "bid": "017",
+        "src": "i17.jpg",
+        "price": "86.40",
+        "deals": "97",
+        "notes": "【现货包邮】Java编程思想第4版 thinking in java中文版第四版 正版程序设计",
+        "shopname": "新华文轩网络书店",
+        "location": "四川 成都"
+    },
+    {
+        "bid": "018",
+        "src": "i18.jpg",
+        "price": "60.70",
+        "deals": "14",
+        "notes": "dk编程真好玩-6岁开始学scratch少儿计算机编程自动化技术课程读本 模块式",
+        "shopname": "布克图书专营店",
+        "location": "山东 济南"
+    },
+    {
+        "bid": "019",
+        "src": "i19.jpg",
+        "price": "88.00",
+        "deals": "9",
+        "notes": "正版包邮 编程真好玩 Scratch2.0少儿编程奇幻之旅 dk编程真好玩-6岁开始学scratch 少儿",
+        "shopname": "山东书虫图书专营店",
+        "location": "山东 济南"
+    },
+    {
+        "bid": "020",
+        "src": "i20.jpg",
+        "price": "49.00",
+        "deals": "75",
+        "notes": "赠视频教程】C语言从入门到精通 c++/c语言零基础电脑编程入门自学书籍",
+        "shopname": "四川新榜图书专营店",
+        "location": "四川 成都"
+    },
+    {
+        "bid": "021",
+        "src": "i21.jpg",
+        "price": "44.90",
+        "deals": "224",
+        "notes": "C语言从入门到精通 同步视频项目案例版 C语言程序设计 c语言入门编程入门 数据结构 ",
+        "shopname": "华心图书专营店",
+        "location": "上海"
+    },
+    {
+        "bid": "022",
+        "src": "i22.jpg",
+        "price": "71.50",
+        "deals": "105",
+        "notes": "Scratch高手密码编程思维改变未来 少儿编程人工智能挑战少儿编程人工智能AI",
+        "shopname": "弗洛拉图书专营店",
+        "location": "山东 济南"
+    },
+    {
+        "bid": "023",
+        "src": "i23.jpg",
+        "price": "124.20",
+        "deals": "71",
+        "notes": "Scratch从入门到精通+Scratch编程+SCRATCH2.0动画游戏创意设计教程 程序设计教程小学生儿童少儿趣味真好玩",
+        "shopname": "墨马图书专营店",
+        "location": "河南 郑州"
+    },
+    {
+        "bid": "024",
+        "src": "i24.jpg",
+        "price": "35.80",
+        "deals": "78",
+        "notes": "【清华正版】小学生C++趣味编程 潘洪波 儿童编程 程序设计 计算机与互联网 ",
+        "shopname": "布克图书专营店",
+        "location": "山东 济南"
+    },
+    {
+        "bid": "025",
+        "src": "i25.jpg",
+        "price": "34.50",
+        "deals": "95",
+        "notes": "父与子的编程之旅 与小卡特一起学Python 中小学生编程 python编程入门教程 Python语言基础 Python核心",
+        "shopname": "悦悦图书专营店",
+        "location": "上海"
+    },
+    {
+        "bid": "026",
+        "src": "i26.jpg",
+        "price": "43.80",
+        "deals": "55",
+        "notes": "【赠2000门视频课程】python编程从入门到实践 零基础学python基础教程实战精通计算机程序设计pathon核心技术网络爬虫",
+        "shopname": "昂秀图书专营店",
+        "location": "福建 福州"
+    },
+    {
+        "bid": "027",
+        "src": "i27.jpg",
+        "price": "152.80",
+        "deals": "20",
+        "notes": "Scratch从入门到精通+Scratch编程+SCRATCH2.0动画游戏创意设计教程 Scratch程序设计教程小学生少儿",
+        "shopname": "三知图书专营店",
+        "location": "湖南 长沙"
+    },
+    {
+        "bid": "028",
+        "src": "i28.jpg",
+        "price": "104.50",
+        "deals": "70",
+        "notes": "正版现货 传智播客Java基础入门教材书  java从入门到精通编程思想教程书籍 java web程序开发入门进阶自学 java电脑",
+        "shopname": "赣江图书专营",
+        "location": "江西 南昌"
+    },
+    {
+        "bid": "029",
+        "src": "i29.jpg",
+        "price": "96.90",
+        "deals": "11",
+        "notes": "【两本套】编程真好玩+Scratch2.0少儿编程奇幻之旅编程真好玩-6岁开始学scratch",
+        "shopname": "凤凰新华书店旗舰店",
+        "location": "江苏 南京"
+    },
+    {
+        "bid": "030",
+        "src": "i30.jpg",
+        "price": "34.20",
+        "deals": "365",
+        "notes": "轻松玩转Scratch编程 scratch少儿趣味编程2.0 儿童编程scratch 游戏设计书 小学生",
+        "shopname": "墨马图书专营店",
+        "location": "河南 郑州"
+    },
+    {
+        "bid": "031",
+        "src": "i31.jpg",
+        "price": "76.00",
+        "deals": "896",
+        "notes": "Java编程思想 第4版 计算机程序设计从入门到精通think in java电脑软件开发核心技术教程",
+        "shopname": "阅轩图书专营店",
+        "location": "江苏 南京"
+    },
+    {
+        "bid": "032",
+        "src": "i32.jpg",
+        "price": "29.80",
+        "deals": "250",
+        "notes": "正版现货 小学生C++趣味编程 潘洪波 C++编程语言计算机编程基础入门到精通阶梯式学习计算机",
+        "shopname": "智源图书专营店",
+        "location": "北京"
+    },
+    {
+        "bid": "033",
+        "src": "i33.jpg",
+        "price": "89.60",
+        "deals": "5",
+        "notes": "【官方正版】 Windows程序设计第6版微软技术丛书MFC框架程序设计编程",
+        "shopname": "清华大学出版社官方旗舰店",
+        "location": "北京"
+    },
+    {
+        "bid": "034",
+        "src": "i34.jpg",
+        "price": "71.80",
+        "deals": "14",
+        "notes": "正版包邮 Scratch高手密码 少儿编程人工智能AI编程教材 scratch少儿趣味",
+        "shopname": "三知图书专营店",
+        "location": "湖南 长沙"
+    },
+    {
+        "bid": "035",
+        "src": "i35.jpg",
+        "price": "34.80",
+        "deals": "59",
+        "notes": "scratch2.0少儿编程奇幻之旅 scratch少儿趣味编程入门案例2 计算机网络程序设计Scratch少儿趣味",
+        "shopname": "兴阅图书专营店",
+        "location": "福建 福州"
+    },
+    {
+        "bid": "036",
+        "src": "i36.jpg",
+        "price": "41.00",
+        "deals": "5",
+        "notes": "Visual Basic精彩编程200例 全彩版 赠光盘 学vb从入门到精通VB编程视频教程basic语言visual basic教材程序设计畅销",
+        "shopname": "志达图书专营店",
+        "location": "上海"
+    },
+    {
+        "bid": "037",
+        "src": "i37.jpg",
+        "price": "63.80",
+        "deals": "9",
+        "notes": "Arduino编程 实现梦想的工具和技术 Arduino编程解析教程书籍 Arduino编程",
+        "shopname": "兰兴达图书专营店",
+        "location": "北京"
+    },
+    {
+        "bid": "038",
+        "src": "i38.jpg",
+        "price": "95.00",
+        "deals": "59",
+        "notes": "Unreal Engine 4从入门到精通 UE4书籍 UE虚幻引擎 虚幻游戏引擎 编程",
+        "shopname": "济南常青藤图书专营店",
+        "location": "山东 济南"
+    },
+    {
+        "bid": "039",
+        "src": "i39.jpg",
+        "price": "70.00",
+        "deals": "56",
+        "notes": "【套装3本】C和指针 C专家编程 C陷阱与缺陷 c语言程序设计入门到精通 C语言代码编写与检测 C Primer Plus C++ C程序员",
+        "shopname": "华心图书专营店",
+        "location": "上海"
+    },
+    {
+        "bid": "040",
+        "src": "i40.jpg",
+        "price": "44.50",
+        "deals": "2284",
+        "notes": "python基础教程 零基础学python3.5编程从入门到实践 精通计算机程序设计pathon核心技术网络爬虫",
+        "shopname": "阅轩图书专营店",
+        "location": "江苏 南京"
+    },
+    {
+        "bid": "041",
+        "src": "i41.jpg",
+        "price": "69.00",
+        "deals": "26",
+        "notes": "正版 用Python写网络爬虫 第2版+Python编程 从入门到实践(全2册)数据抓取采集分析 开发实战图书全新升级",
+        "shopname": "济南常青藤图书专营店",
+        "location": "山东 济南"
+    },
+    {
+        "bid": "042",
+        "src": "i42.jpg",
+        "price": "70.00",
+        "deals": "36",
+        "notes": "开放式控制系统编程技术 基于IEC 61131-3国际标准 CoDeSys基础知识 CoDeSys",
+        "shopname": "旷氏文豪图书专营店",
+        "location": "北京"
+    },
+    {
+        "bid": "043",
+        "src": "i43.jpg",
+        "price": "39.80",
+        "deals": "25",
+        "notes": "Scratch真好玩教小孩学编程 Scratch编程入门书籍 少儿Scratch编程竞赛基础知识 scratch少儿趣味",
+        "shopname": "兰兴达图书专营店",
+        "location": "北京"
+    },
+    {
+        "bid": "044",
+        "src": "i44.jpg",
+        "price": "48.80",
+        "deals": "14",
+        "notes": "正版 Python核心编程 第3版 python开发大全 python入门到精通书籍第三版 python",
+        "shopname": "兴阅图书专营店",
+        "location": "福建 福州"
+    },
+    {
+        "bid": "045",
+        "src": "i45.jpg",
+        "price": "29.50",
+        "deals": "152",
+        "notes": "编程猫 孩子们写的编程入门书 编程猫儿童入门教程scratch少儿趣味编程 少儿创意游戏",
+        "shopname": "弗洛拉图书专营店",
+        "location": "山东 济南"
+    },
+    {
+        "bid": "046",
+        "src": "i46.jpg",
+        "price": "43.80",
+        "deals": "25",
+        "notes": "正版 Qt5.9 C++开发指南 QT编程教程C++编程书 Qt 5.9 LTS版本为开发平台详解Qt C++开发应用程序 计算机书 Qt应用程序基本架构数",
+        "shopname": "学语者图书专营店",
+        "location": "福建 福州"
+    },
+    {
+        "bid": "047",
+        "src": "i47.jpg",
+        "price": "34.90",
+        "deals": "77",
+        "notes": "Scratch2.0少儿编程奇幻之旅 scratch少儿趣味编程 儿童编程入门教程书",
+        "shopname": "蚂蚁兵团图书专营店",
+        "location": "福建 福州"
+    },
+    {
+        "bid": "048",
+        "src": "i48.jpg",
+        "price": "34.80",
+        "deals": "30",
+        "notes": "Scratch2.0少儿编程奇幻之旅 scratch少儿趣味编程 儿童编程入门教程书",
+        "shopname": "昂秀图书专营店",
+        "location": "福建 福州"
+    }
+]
