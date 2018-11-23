@@ -4,13 +4,14 @@ $(function () {
         welcome: $(".welcome"),
         cart: $(".cart"),
         carts: $(".cart_item_box"),
-        checkAll: $("#selectAll"),
+        checkAll: $("#checkAll"),
         totalCount: $(".cart_ft .select_num"),
         selectPrice: $(".cart-sum .selectPrice"),
         totalPrice: $(".cart_ft .total_price"),
         delCartGoods: $(".del")
     };
     new GoCount(obj);
+
 });
 class GoCount {
     constructor(obj) {
@@ -116,22 +117,25 @@ class OperateCartGoods {
         this.userName = obj.userName;
         this.carts = obj.carts;
         this.checkAll = obj.checkAll;
+        this.totalGoods = $(".totalGoods");
         this.totalCount = $(".cart_ft .select_num")//obj.totalCount; //所选商品总条数
         this.selectPrice = $(".cart-sum .selectPrice")//obj.selectPrice;//所选商品总价
         this.totalPrice = $(".cart_ft .total_price")//obj.totalPrice;
         this.checkOne = $(".checkOne");
         this.delCartGoods = $(".del")//obj.del;//删除所选商品按钮
+        this.del = $(".delete");
         this.selectAll();
         this.selectOne();
         this.updateCart(1, ".plus");
         this.updateCart(-1, ".minus");
-        this.deletCartGoodsInfo();//删除所有选中商品
-        this.computeCart = new ComputeCart(this.userName, this.goods);//购物车计算功能实现
+        this.deleteSelectGoods();
+        this.deleteGoods();
+        this.computeCart = new ComputeCart(this.userName, this.goods);
     };
     selectAll() {
-        console.log(this.checkOne.html());
         var _this = this;
         this.checkAll.click(function () {
+            _this.checkOne = $(".checkOne");
             _this.checkOne.prop("checked", $(this).prop("checked"));
             $(this).prop("disabled", true);
 
@@ -152,12 +156,14 @@ class OperateCartGoods {
             //在页面中显示商品总价。
             _this.totalPrice.html(allPrice);
             _this.selectPrice.html(allPrice);
+
         });
 
     };
     selectOne() {
         var _this = this;
         this.checkOne.click(function () {
+            _this.checkOne = $(".checkOne");
             var flag = true;
             for (var i = 0; i < _this.checkOne.length; i++) {
                 if (!_this.checkOne.eq(i).prop("checked")) {
@@ -172,6 +178,7 @@ class OperateCartGoods {
             var goodsBid = $(".goodsBid");
             var allCount = 0;
             var allPrice = 0;
+
             for (var i = 0; i < _this.checkOne.length; i++) {
                 if (_this.checkOne.eq(i).prop("checked")) {
                     _this.computeCart.getBid(goodsBid.eq(i).val());
@@ -182,13 +189,12 @@ class OperateCartGoods {
 
                     allPrice += _this.computeCart.count * _this.computeCart.price;
                 }
-                console.log(_this.checkOne.length)
-                //显示商品总数量
-                _this.totalCount.html(allCount);
-                //商品总价
-                _this.totalPrice.html(allPrice);
-                _this.selectPrice.html(allPrice);
             }
+            //显示商品总数量
+            _this.totalCount.html(allCount);
+            //商品总价
+            _this.totalPrice.html(allPrice);
+            _this.selectPrice.html(allPrice);
         });
     };
     updateCart(num, className) {
@@ -213,21 +219,22 @@ class OperateCartGoods {
                 _this.updateCart(0, ".plus");
                 _this.updateCart(0, ".minus");
             } else {
+
                 goodsCount.val(_this.computeCart.count);
                 $(this).parent().parent().parent().find(".tPrice").html(_this.computeCart.count * _this.computeCart.price);
             }
             checkOne = _this.carts.find(".checkOne");
 
-            //计算所选商品总条数和总价格
-            var allCount = 0;//总条数
-            var allPrice = 0;//总价格
-
+            var allCount = 0;
+            var allPrice = 0;
+            var total = 0;
             for (var i = 0; i < checkOne.length; i++) {
-                //找到所有被选中的商品
+                total += Number(_this.carts.find(".text-amount").eq(i).val());
+                _this.totalGoods.html(total);
                 if (checkOne.eq(i).prop("checked")) {
-                    //把选中的商品条数累加
+
                     allCount += Number(_this.carts.find(".text-amount").eq(i).val());
-                    //把选中的商品价格累加
+
                     allPrice += Number(_this.carts.find(".tPrice").eq(i).html());
                 }
             }
@@ -242,31 +249,90 @@ class OperateCartGoods {
             _this.computeCart.setLocalStorage();
             //更新当前数据
             _this.computeCart.getCart();
-
+            return false;
         });
     };
-    deletCartGoodsInfo() {
+    deleteSelectGoods() {
         var _this = this;
+        var sum = 0;
         //var checkOne = this.carts.find(".checkOne");
         //点击删除所选商品
         this.delCartGoods.click(function () {
-            //遍历所有选中商品
-            //alert(11)
+            _this.checkOne = $(".checkOne");
+            // //遍历所有选中商品
             for (var i = 0; i < _this.checkOne.length; i++) {
                 if (_this.checkOne.eq(i).prop("checked")) {
-                    _this.computeCart.setBid(_this.checkOne.eq(i).parent().parent().parent().find(".goodsBid").val());
 
-                    _this.checkOne.eq(i).parent().parent().parent().remove();
+                    _this.computeCart.getBid(_this.checkOne.eq(i).parent().parent().find(".goodsBid").val());
+                    sum = Number(_this.checkOne.eq(i).parent().parent().find(".text-amount").val());
 
-                    _this.computeCart.delCartGood();
+                    _this.checkOne.eq(i).parent().parent().remove();
+                    _this.computeCart.delCartGoods();
                 }
             }
+
+            _this.totalGoods.html(_this.totalGoods.html() - sum);
             _this.totalCount.html(0);
+            //在页面中显示商品总价。
             _this.totalPrice.html(0);
+            _this.selectPrice.html(0);
+
             _this.selectOne();
             _this.updateCart(0, ".plus");
             _this.updateCart(0, ".minus");
+            //更新localstorage数据
+            //_this.computeCart.setLocalStorage();
+            //更新当前数据
+            //_this.computeCart.getCart();
+            // return false;
         });
+
+    };
+    deleteGoods() {
+        var _this = this;
+        var sum = 0;
+        //this.totalGoods = $(".totalGoods");
+        var allPrice = 0;
+        var total = 0;
+        this.del.click(function () {
+            _this.checkOne = $(".checkOne");
+            _this.computeCart.getBid($(this).parent().find(".goodsBid").val());
+            sum = Number($(this).parent().find(".text-amount").val());
+            $(this).parent().remove();
+            _this.computeCart.delCartGoods();
+
+            // _this.totalGoods.html(_this.totalGoods.html() - sum);
+
+            _this.checkOne = $(".checkOne");
+            for (var i = 0; i < _this.checkOne.length; i++) {
+                console.log(_this.carts.find(".text-amount").eq(i).val());
+                total += Number(_this.carts.find(".text-amount").eq(i).val());
+
+                allPrice += Number(_this.carts.find(".tPrice").eq(i).html());
+            }
+
+            _this.totalGoods.html(total);
+            //在页面中显示商品总条数
+            _this.totalCount.html(total);
+            //在页面中显示商品总价。
+            _this.totalPrice.html(allPrice);
+            _this.selectPrice.html(allPrice);
+
+            // _this.totalCount.html(0);
+            // //在页面中显示商品总价。
+            // _this.totalPrice.html(0);
+            // _this.selectPrice.html(0);
+
+            _this.selectOne();
+            _this.updateCart(0, ".plus");
+            _this.updateCart(0, ".minus");
+            //更新localstorage数据
+            //_this.computeCart.setLocalStorage();
+            //更新当前数据
+            //_this.computeCart.getCart();
+            // return false;
+        });
+
     }
 }
 class ComputeCart {
@@ -336,7 +402,7 @@ class ComputeCart {
             if (storageArr[i].bid == this.bid) {
                 //删除整条该商品信息
                 storageArr.splice(i, 1);
-                return;
+                break;
             };
         }
         var storageJson = JSON.stringify(storageArr);

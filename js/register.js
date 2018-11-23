@@ -29,12 +29,19 @@ $(function () {
     var info_pass = $("#info_pass");
     var succ_pass = $("#succ_pass");
     var error_pass = $("#error_pass");
+    var q1 = $("#q1");
     var pwdFlag = false;
-    var pwdReg = /^\S{6,20}$/;
+    var pwdReg = /^(?![A-Z]+$)(?![a-z]+$)(?!\d+$)(?![\W_]+$)\S{6,20}$/;
+    // var pwdReg = /^\S{6,20}$/;
     pwd.focus(function () {
         info_pass.css("display", "block");
         error_pass.css("display", "none");
         succ_pass.css("display", "none");
+    });
+    pwd.keyup(function () {
+        if (pwdReg.test($(this).val())) {
+            q1.html("●");
+        }
     });
     pwd.blur(function () {
         info_pass.css("display", "none");
@@ -47,45 +54,45 @@ $(function () {
         }
     });
     //密码安全强度的验证
-    var q1 = $("#q1");
-    var q2 = $("#q2");
-    var q3 = $("#q3");
-    var s1 = $("#s1");
-    var s2 = $("#s2");
-    var s3 = $("#s3");
-    var pwdReg1 = /.{6,20}/;
-    var pwdReg2 = /^\S+$/;
-    var pwdReg3 = /^(?![A-Z]+$)(?![a-z]+$)(?!\d+$)(?![\W_]+$)\S{6,20}$/;
-    pwd.keyup(function () {
-        if (pwdReg1.test($(this).val())) {//pass reg1
-            q1.html("●");
-            s1.css("color", "green");
-            // if (checkPass()) {
-            if (pwdReg3.test($(this).val())) {
-                s2.css("color", "green");
-                if (this.value.length > 9) {
-                    s3.css("color", "green");
-                } else {
-                    s3.css("color", "#ccc");
-                }
-            } else {
-                s2.css("color", "#ccc");
-            }
-        } else {
-            q1.html("○");
-            s1.css("color", "#ccc");
-        };
-        if (pwdReg2.test($(this).val())) {
-            q2.html("●");
-        } else {
-            q2.html("○");
-        };
-        if (pwdReg3.test($(this).val())) {
-            q3.html("●");
-        } else {
-            q3.html("○");
-        };
-    });
+    // var q1 = $("#q1");
+    // var q2 = $("#q2");
+    // var q3 = $("#q3");
+    // var s1 = $("#s1");
+    // var s2 = $("#s2");
+    // var s3 = $("#s3");
+    // var pwdReg1 = /.{6,20}/;
+    // var pwdReg2 = /^\S+$/;
+
+    // pwd.keyup(function () {
+    //     if (pwdReg1.test($(this).val())) {//pass reg1
+    //         q1.html("●");
+    //         s1.css("color", "green");
+    //         // if (checkPass()) {
+    //         if (pwdReg3.test($(this).val())) {
+    //             s2.css("color", "green");
+    //             if (this.value.length > 9) {
+    //                 s3.css("color", "green");
+    //             } else {
+    //                 s3.css("color", "#ccc");
+    //             }
+    //         } else {
+    //             s2.css("color", "#ccc");
+    //         }
+    //     } else {
+    //         q1.html("○");
+    //         s1.css("color", "#ccc");
+    //     };
+    //     if (pwdReg2.test($(this).val())) {
+    //         q2.html("●");
+    //     } else {
+    //         q2.html("○");
+    //     };
+    //     if (pwdReg3.test($(this).val())) {
+    //         q3.html("●");
+    //     } else {
+    //         q3.html("○");
+    //     };
+    // });
     //密码的确认验证
     var repwd = $("#repwd");
     var error_repass = $("#error_repass");

@@ -138,7 +138,7 @@
                             display: none;    
                         }
                         span.info{
-                            background: url(../images/reg_info.png) no-repeat;
+                            //background: url(../images/reg_info.png) no-repeat;
                         }
                         span.error{
                             background: url(../images/reg_error.png) no-repeat;
@@ -151,10 +151,11 @@
                         span.info_user{
                             height: 43px;
                             line-height: 18px;
-                            background: url(../images/reg_info2.png) no-repeat;
+                            //background: url(../images/reg_info2.png) no-repeat;
                             padding-top: 7px;
                             top: 8px;
-                            left: 380px;
+                            left: 350px;
+                            //left: 380px;
                         }
                         span.error_user{
                             top: 14px;
@@ -168,9 +169,11 @@
                             width: 260px;
                             height: 104px;
                             padding-top: 2px;
-                            background: url(../images/reg_info3.png) no-repeat;
-                            top: 36px;
-                            left: 380px;
+                            //background: url(../images/reg_info3.png) no-repeat;
+                            top: 60px;
+                            left: 350px;
+                            // top: 36px;
+                            // left: 380px;
                             p{
                                 height: 25px;
                                 line-height: 25px;
@@ -190,7 +193,8 @@
                         }
                         span.info_repass{
                             top: 130px;
-                            left: 380px;
+                            left: 350px;
+                            //left: 380px;
                         }
                         span.error_repass{
                             top: 130px;

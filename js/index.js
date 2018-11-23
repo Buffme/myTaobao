@@ -71,6 +71,9 @@ $(function () {
         bnLi.eq(indexB == bnLi.size() ? 0 : indexB).addClass("active").siblings().removeClass("active");
         return false;
     });
+    // bnLi.mouseenter(function(){
+
+    // });
     //天猫轮播动画
     var indexT = 0
     var tmall = $(".banner-l-b");

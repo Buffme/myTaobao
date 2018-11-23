@@ -136,9 +136,6 @@
   position: absolute;
   display: none;
 }
-.register .main .content ul li .field span.info {
-  background: url(../images/reg_info.png) no-repeat;
-}
 .register .main .content ul li .field span.error {
   background: url(../images/reg_error.png) no-repeat;
 }
@@ -150,10 +147,9 @@
 .register .main .content ul li .field span.info_user {
   height: 43px;
   line-height: 18px;
-  background: url(../images/reg_info2.png) no-repeat;
   padding-top: 7px;
   top: 8px;
-  left: 380px;
+  left: 350px;
 }
 .register .main .content ul li .field span.error_user {
   top: 14px;
@@ -167,9 +163,8 @@
   width: 260px;
   height: 104px;
   padding-top: 2px;
-  background: url(../images/reg_info3.png) no-repeat;
-  top: 36px;
-  left: 380px;
+  top: 60px;
+  left: 350px;
 }
 .register .main .content ul li .field span.info_pass p {
   height: 25px;
@@ -189,7 +184,7 @@
 }
 .register .main .content ul li .field span.info_repass {
   top: 130px;
-  left: 380px;
+  left: 350px;
 }
 .register .main .content ul li .field span.error_repass {
   top: 130px;
